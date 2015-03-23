@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="45dip"
+    android:layout_alignParentTop="true"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#4ead4f" >
+
+    <TextView
+        android:id="@+id/title_back_btn"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:onClick="onTitleBarLeftBtnClick"
+        android:drawableLeft="@drawable/titlebar_back"
+        android:text="返回"
+        android:clickable="true"
+        android:textColor="@color/btn_title_selector"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/title_left_img_btn"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/title_back_btn"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:onClick="onTitleBarLeftImgBtnClick"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/title_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="中间标题"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/title_right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="右边标题"
+        android:clickable="true"
+        android:onClick="onTitleBarRightBtnClick"
+        android:textColor="@color/btn_title_selector"
+        android:textSize="16sp"
+         />
+
+    <ImageButton
+        android:id="@+id/title_right_img_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="9dp"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:onClick="onTitleBarRightImgBtnClick"
+        android:scaleType="centerInside"
+        android:visibility="gone" />
+
+</RelativeLayout>
