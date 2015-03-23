@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252934"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+
+   <TextView 
+       android:id="@+id/track_draw_btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="轨迹绘制"
+       android:clickable="true"
+        android:layout_marginTop="10dp"
+       android:drawableTop="@drawable/ico_gray_locus_off"
+       android:drawablePadding="5dp"
+       android:textSize="15sp"
+       android:textColor="#7B7C80"
+       />
+   <TextView 
+       android:id="@+id/phone_call_back_btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:text="电话回拨"
+       android:clickable="true"
+       android:drawableTop="@drawable/ico_gray_callback_off"
+       android:drawablePadding="5dp"
+       android:textSize="15sp"
+       android:textColor="#7B7C80"
+       />
+   <TextView 
+       android:id="@+id/electronic_fence_btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="电子围栏"
+        android:clickable="true"
+       android:drawableTop="@drawable/ico_gray_fence_off"
+       android:drawablePadding="5dp"
+       android:textSize="15sp"
+        android:layout_marginTop="10dp"
+       android:textColor="#7B7C80"
+       />
+
+</LinearLayout>

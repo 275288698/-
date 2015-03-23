@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f9f1"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:hint="填写账号"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#b9b9b9"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_margin="4dp"
+        android:background="@drawable/line_gary_long" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:hint="填写密码"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#b9b9b9"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_margin="4dp"
+        android:background="@drawable/line_gary_long" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_green_big_btn"
+            android:onClick="onBtnClick"
+        android:text="登陆"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:textColor="#b9b9b9"
+              android:textSize="12sp"
+              android:layout_marginLeft="10dp"
+            android:text="没有账号?" />
+
+        <TextView
+              android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="注册"
+            android:textSize="12sp"
+            android:clickable="true"
+            android:onClick="onBtnClick"
+            android:textColor="#4ead4f" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+             android:id="@+id/tv_forgetPW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:padding="10dp"
+            android:text="忘记密码"
+            android:textSize="12sp"
+              android:clickable="true"
+            android:onClick="onBtnClick"
+            android:textColor="#4ead4f" />
+    </LinearLayout>
+
+</LinearLayout>

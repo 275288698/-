@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f9f1" >
+
+    <LinearLayout
+        android:id="@+id/layout_before"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+         >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:hint="11位中国大陆地区手机号"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#b9b9b9"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_margin="4dp"
+            android:background="@drawable/line_gary_long" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_green_big_btn"
+            android:onClick="onBtnClick"
+            android:text="确定"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_after"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/tv_phoneNumMark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="验证码已发送到1331234123:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:hint="6位短信验证码"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textColorHint="#b9b9b9"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/line_gary_long" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_resend"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/bg_green_big_btn"
+                android:onClick="onBtnClick"
+                android:text="重新发送"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:hint="6-20位字符密码，区分大小写"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#b9b9b9"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_margin="4dp"
+            android:background="@drawable/line_gary_long" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:hint="设备号"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#b9b9b9"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_margin="4dp"
+            android:background="@drawable/line_gary_long" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_green_big_btn"
+            android:onClick="onBtnClick"
+            android:text="完成注册"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</FrameLayout>
