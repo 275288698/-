@@ -17,21 +17,21 @@ public class ContentMainActivity extends FragmentActivity {
 	
 protected SlidingMenu side_drawer;
 	
-	/** head Í·²¿ µÄÖĞ¼äµÄloading*/
+	/** head å¤´éƒ¨ çš„ä¸­é—´çš„loading*/
 	private ProgressBar top_progress;
-	/** head Í·²¿ ÖĞ¼äµÄË¢ĞÂ°´Å¥*/
+	/** head å¤´éƒ¨ ä¸­é—´çš„åˆ·æ–°æŒ‰é’®*/
 	private ImageView top_refresh;
-	/** head Í·²¿ µÄ×ó²à²Ëµ¥ °´Å¥*/
+	/** head å¤´éƒ¨ çš„å·¦ä¾§èœå• æŒ‰é’®*/
 	private ImageView top_head;
-	/** head Í·²¿ µÄÓÒ²à²Ëµ¥ °´Å¥*/
+	/** head å¤´éƒ¨ çš„å³ä¾§èœå• æŒ‰é’®*/
 	private ImageView top_more;
-	/** ÇëÇóCODE */
+	/** è¯·æ±‚CODE */
 	public final static int CHANNELREQUEST = 1;
-	/** µ÷Õû·µ»ØµÄRESULTCODE */
+	/** è°ƒæ•´è¿”å›çš„RESULTCODE */
 	public final static int CHANNELRESULT = 10;
 	
 	private boolean isOpen ;
-	
+	/**æˆ‘æ¥æµ‹è¯•ä¸‹*/
 	@Override
 		protected void onCreate(Bundle arg0) {
 			super.onCreate(arg0);
@@ -41,7 +41,7 @@ protected SlidingMenu side_drawer;
 			initSlidingMenu();
 		}
 	
-	/** ³õÊ¼»¯layout¿Ø¼ş*/
+	/** åˆå§‹åŒ–layoutæ§ä»¶*/
 	private void initView() {
 		top_head = (ImageView) findViewById(R.id.top_head);
 		top_more = (ImageView) findViewById(R.id.top_more);
