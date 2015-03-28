@@ -63,13 +63,11 @@ public class StoryMachineStory extends CustomTitleActivity {
 
 	@Override
 	protected void installListeners() {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	protected void uninstallListeners() {
-		// TODO Auto-generated method stub
 
 	}
 

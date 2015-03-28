@@ -17,21 +17,21 @@ public class ContentMainActivity extends FragmentActivity {
 	
 protected SlidingMenu side_drawer;
 	
-	/** head 头部 的中间的loading*/
+	/** head 澶撮儴 鐨勪腑闂寸殑loading*/
 	private ProgressBar top_progress;
-	/** head 头部 中间的刷新按钮*/
+	/** head 澶撮儴 涓棿鐨勫埛鏂版寜閽�*/
 	private ImageView top_refresh;
-	/** head 头部 的左侧菜单 按钮*/
+	/** head 澶撮儴 鐨勫乏渚ц彍鍗� 鎸夐挳*/
 	private ImageView top_head;
-	/** head 头部 的右侧菜单 按钮*/
+	/** head 澶撮儴 鐨勫彸渚ц彍鍗� 鎸夐挳*/
 	private ImageView top_more;
-	/** 请求CODE */
+	/** 璇锋眰CODE */
 	public final static int CHANNELREQUEST = 1;
-	/** 调整返回的RESULTCODE */
+	/** 璋冩暣杩斿洖鐨凴ESULTCODE */
 	public final static int CHANNELRESULT = 10;
 	
 	private boolean isOpen ;
-	/**我来测试下*/
+	/**鎴戞潵娴嬭瘯涓�*/
 	@Override
 		protected void onCreate(Bundle arg0) {
 			super.onCreate(arg0);
@@ -41,7 +41,7 @@ protected SlidingMenu side_drawer;
 			initSlidingMenu();
 		}
 	
-	/** 初始化layout控件*/
+	/** 鍒濆鍖杔ayout鎺т欢*/
 	private void initView() {
 		top_head = (ImageView) findViewById(R.id.top_head);
 		top_more = (ImageView) findViewById(R.id.top_more);

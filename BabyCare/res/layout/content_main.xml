@@ -22,29 +22,11 @@
                 android:id="@+id/rl_top"
                 android:layout_width="match_parent"
                 android:layout_height="250dp" >
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical" >
-
-                    <View
+   				  <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_height="125dp"
                         android:background="#4ead4f" />
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:background="#f1f9f1" />
-                </LinearLayout>
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
+ 
                     <com.babycare.view.EyeView
                         android:id="@+id/eyeView"
                         android:layout_width="match_parent"
@@ -79,9 +61,11 @@
                                 android:layout_alignTop="@+id/iv_head"
                                 android:src="@drawable/icon_red_frame" />
                         </RelativeLayout>
-                    </com.babycare.view.EyeView>
-
-                    <TextView
+                        
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                  <TextView
                         android:id="@+id/ll_weather"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -93,12 +77,15 @@
                         android:textColor="#b9b9b9"
                         android:textSize="12sp" />
                 </RelativeLayout>
+                    </com.babycare.view.EyeView>
+      
             </FrameLayout>
 
             <LinearLayout
                 android:id="@+id/ll_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                 android:background="#f1f9f1"
                 android:orientation="vertical" >
 
                 <include layout="@layout/content_main_item" />
