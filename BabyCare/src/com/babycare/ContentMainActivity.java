@@ -17,21 +17,21 @@ public class ContentMainActivity extends FragmentActivity {
 	
 protected SlidingMenu side_drawer;
 	
-	/** head 澶撮儴 鐨勪腑闂寸殑loading*/
+
 	private ProgressBar top_progress;
-	/** head 澶撮儴 涓棿鐨勫埛鏂版寜閽�*/
+
 	private ImageView top_refresh;
-	/** head 澶撮儴 鐨勫乏渚ц彍鍗� 鎸夐挳*/
+
 	private ImageView top_head;
-	/** head 澶撮儴 鐨勫彸渚ц彍鍗� 鎸夐挳*/
+
 	private ImageView top_more;
-	/** 璇锋眰CODE */
+
 	public final static int CHANNELREQUEST = 1;
-	/** 璋冩暣杩斿洖鐨凴ESULTCODE */
+
 	public final static int CHANNELRESULT = 10;
 	
 	private boolean isOpen ;
-	/**鎴戞潵娴嬭瘯涓�*/
+
 	@Override
 		protected void onCreate(Bundle arg0) {
 			super.onCreate(arg0);
@@ -41,7 +41,7 @@ protected SlidingMenu side_drawer;
 			initSlidingMenu();
 		}
 	
-	/** 鍒濆鍖杔ayout鎺т欢*/
+
 	private void initView() {
 		top_head = (ImageView) findViewById(R.id.top_head);
 		top_more = (ImageView) findViewById(R.id.top_more);
