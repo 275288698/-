@@ -1,0 +1,379 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f9f1"
+    >
+<LinearLayout 
+    android:id="@+id/layout_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f9f1"
+    android:visibility="invisible"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_head" />
+
+    <com.babycare.view.PullLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f1f9f1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/rl_top"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" >
+   				  <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:background="#4ead4f" />
+ 
+                    <com.babycare.view.EyeView
+                        android:id="@+id/eyeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/selector_bg" >
+
+                        <ImageView
+                            android:id="@+id/iv_map"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/icon_red_map" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <ImageView
+                                android:id="@+id/iv_head"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="120dp"
+                                android:src="@drawable/icon_map_head_portrait" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/iv_head"
+                                android:layout_alignRight="@+id/iv_head"
+                                android:layout_alignTop="@+id/iv_head"
+                                android:src="@drawable/icon_red_frame" />
+                        </RelativeLayout>
+                        
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                  <TextView
+                        android:id="@+id/ll_weather"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="南山区科技园TCL大厦附近\n2014年12月24号 星期三 12：30"
+                        android:textColor="#b9b9b9"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+                    </com.babycare.view.EyeView>
+      
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="#f1f9f1"
+                android:orientation="vertical" >
+
+                <include layout="@layout/content_main_item" />
+
+                <include layout="@layout/content_main_item" />
+
+                <include layout="@layout/content_main_item" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.babycare.view.PullLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<RelativeLayout 
+    android:id="@+id/layout_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f9f1" >
+
+    <LinearLayout
+        android:id="@+id/bottombar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/volaBtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/volume_up" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/preBtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:scaleType="centerInside"
+                android:src="@drawable/skip_previous" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pauseBtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:padding="7dp"
+                android:id="@+id/i3"
+                android:layout_width="wrap_content"
+                 android:scaleType="centerInside"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circle_pause" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/next1Btn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                 android:scaleType="centerInside"
+                android:layout_height="wrap_content"
+                android:src="@drawable/skip_next" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/volpBtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:scaleType="centerInside"
+                android:src="@drawable/volume_down" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_above="@id/bottombar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <!--  
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#cccccc"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/gushiBtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="故事"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#b2b2b2" />
+
+            <TextView
+                android:id="@+id/ergeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="儿歌"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#b2b2b2" />
+
+            <TextView
+                android:id="@+id/yingyuBtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="英语"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#b2b2b2" />
+
+            <TextView
+                android:id="@+id/renzhiBtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="认知"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#b2b2b2" />
+        </LinearLayout>
+-->
+        <RelativeLayout
+            android:id="@+id/mid_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3" >
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:cacheColorHint="#00000000"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                android:listSelector="@android:color/transparent" >
+            </ListView>
+        </RelativeLayout>
+    </LinearLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@id/bottombar"
+        android:background="#cccccc"
+        />
+    
+    
+    <RelativeLayout
+        android:id="@+id/titlebar"
+         android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_alignParentTop="true"
+         >
+
+        <View 
+         android:id="@+id/titlebar_bg"
+         android:layout_width="fill_parent"
+        	android:layout_height="45dip"
+         android:background="#4ead4f"
+            />
+        <RelativeLayout
+            android:id="@+id/backBtn"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip" >
+
+            <ImageView
+                android:id="@+id/backImage"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_centerVertical="true"
+                android:duplicateParentState="true"
+                android:src="@drawable/titlebar_back" />
+
+            <TextView
+                android:id="@+id/title_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="-4dp"
+                android:layout_toRightOf="@+id/backImage"
+                android:duplicateParentState="true"
+                android:text="返回"
+                android:textColor="@color/btn_title_selector"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="勇娃故事机"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/poBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ico_green_switch" />
+    </RelativeLayout>
+</RelativeLayout>
+
+</FrameLayout>

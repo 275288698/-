@@ -19,7 +19,7 @@ import com.babycare.base.CustomTitleActivity;
  * @version V1.0 
  */
 public class YQ_BabyManageActivity extends CustomTitleActivity {
-	private View view1,view2,view3,view4,view5,view6,view7,unBind;
+	private View view1,view2,view3,view4,view5,view6,view7,view8;
 	
 	private boolean isShowing = false;
 	@Override
@@ -40,7 +40,7 @@ public class YQ_BabyManageActivity extends CustomTitleActivity {
 		view5 = findViewById(R.id.arrow5);
 		view6 = findViewById(R.id.arrow6);
 		view7 = findViewById(R.id.arrow7);
-		unBind = findViewById(R.id.btn_unBind);
+		view8 = findViewById(R.id.arrow8);
 		hideView();
 	}
 
@@ -51,8 +51,8 @@ public class YQ_BabyManageActivity extends CustomTitleActivity {
 		view4.setVisibility(View.GONE);
 		view5.setVisibility(View.GONE);
 		view6.setVisibility(View.GONE);
-		view7.setVisibility(View.INVISIBLE);
-		unBind.setVisibility(View.INVISIBLE);
+		view7.setVisibility(View.GONE);
+		view8.setVisibility(View.GONE);
 	}
 
 	private void showView() {
@@ -63,7 +63,7 @@ public class YQ_BabyManageActivity extends CustomTitleActivity {
 		view5.setVisibility(View.VISIBLE);
 		view6.setVisibility(View.VISIBLE);
 		view7.setVisibility(View.VISIBLE);
-		unBind.setVisibility(View.VISIBLE);
+		view8.setVisibility(View.VISIBLE);
 	}
 
 	@Override
@@ -89,10 +89,7 @@ public class YQ_BabyManageActivity extends CustomTitleActivity {
 		case R.id.set_name:
 			startActivity(new Intent(YQ_BabyManageActivity.this,YQ_NameChange_Activity.class));
 			break;
-		case R.id.btn_unBind:
-			
 
-			break;
 	
 		default:
 			break;

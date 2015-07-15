@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#bfbfbf">"
+    
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp"
+        android:text="谜面："
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/mimianView"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:background="#00ccff"
+  
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mimianView"
+        android:layout_below="@+id/mimianView"
+        android:layout_marginTop="20dp"
+        android:text="谜底："
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/replayBtn"
+        android:layout_alignLeft="@+id/tureBtn"
+        android:layout_alignRight="@+id/tureBtn"
+        android:layout_alignTop="@+id/replayBtn"
+        android:text="下一个 " />
+
+    <Button
+        android:id="@+id/replayBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/falseBtn"
+        android:layout_alignRight="@+id/falseBtn"
+        android:layout_below="@+id/falseBtn"
+        android:layout_marginTop="40dp"
+        android:text="重播谜面" />
+
+    <Button
+        android:id="@+id/falseBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/tureBtn"
+        android:layout_alignBottom="@+id/tureBtn"
+        android:layout_alignLeft="@+id/midiView"
+        android:layout_marginLeft="36dp"
+        android:text="再想想 " />
+
+    <Button
+        android:id="@+id/backBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mimianView"
+        android:layout_alignRight="@+id/mimianView"
+        android:text="返回" />
+
+    <TextView
+        android:id="@+id/midiView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/mimianView"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="14dp"
+        android:background="#00ccff"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         />
+
+    <Button
+        android:id="@+id/tureBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/midiView"
+        android:layout_marginTop="28dp"
+        android:layout_toLeftOf="@+id/backBtn"
+        android:text="答对了 " />
+
+</RelativeLayout>

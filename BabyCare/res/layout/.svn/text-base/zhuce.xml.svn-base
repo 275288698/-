@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/backshezhi1">
+
+    <EditText
+        android:id="@+id/shurumima"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+         android:layout_above="@+id/textView55"
+        android:layout_alignRight="@+id/textView55"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="*密码设置（六位以上）"
+        android:textColor="#ffffff"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/yuedu"
+        android:layout_alignRight="@+id/youxiang"
+        android:layout_below="@+id/yuedu"
+        android:layout_marginTop="5dp"
+        android:text="(此账号可以用于宝贝家官网登陆,www.ubabytv.com.cn体验更多的会员特权。)" 
+        android:textColor="#000000"/>
+    
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="250dp"
+        android:layout_height="15dp"
+        android:layout_above="@+id/shurumima"
+        android:layout_alignRight="@+id/xieyi"
+        android:layout_marginTop="5dp"
+        android:text="" />
+
+	<EditText
+        android:id="@+id/shouji"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/textView11"
+        android:layout_alignRight="@+id/xieyi"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="*手机"
+        android:textColor="#ffffff"
+        android:inputType="phone" />   
+    
+    
+    <EditText
+        android:id="@+id/youxiang"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/shouji"
+        android:layout_alignRight="@+id/xieyi"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="*邮箱"
+        android:textColor="#ffffff"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/nicheng"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/youxiang"
+        android:layout_alignRight="@+id/querenmima"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="*昵称"
+        android:textColor="#ffffff"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/querenmima"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/shurumima"
+        android:layout_alignRight="@+id/shurumima"
+        android:layout_below="@+id/shurumima"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="*确认密码"
+        android:textColor="#ffffff"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/xieyi"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_above="@+id/textView1"
+        android:layout_alignRight="@+id/querenmima"
+        android:background="@null"
+        android:text="《用户协议》"
+        android:textColor="#ff0000"
+        android:textSize="14dip" />
+
+    <CheckBox
+        android:id="@+id/yuedu"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/querenmima"
+        android:layout_below="@+id/querenmima"
+        android:layout_marginTop="5dp"
+        android:text="已阅读并同意"
+        android:textColor="#ff0000"
+        android:textSize="14dip" />
+
+    <Button
+        android:id="@+id/zhucetijiao"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/shurumima"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:text="注册提交"
+        android:textColor="#ffffff"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="" />
+
+</RelativeLayout>

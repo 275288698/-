@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>不要在森林里玩火</name>
+		<onenumber>47</onenumber>
+		<twonumber>59</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="2">
+		<name>为什么消防车是红色的</name>
+		<onenumber>47</onenumber>
+		<twonumber>60</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="3">
+		<name>怎样报火警</name>
+		<onenumber>47</onenumber>
+		<twonumber>61</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="4">
+		<name>世界上第一位消防员</name>
+		<onenumber>47</onenumber>
+		<twonumber>62</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="5">
+		<name>火灾不碰金属物</name>
+		<onenumber>47</onenumber>
+		<twonumber>63</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="6">
+		<name>消防员穿什么样的衣服去救火</name>
+		<onenumber>47</onenumber>
+		<twonumber>64</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="7">
+		<name>古代人是怎样灭火的</name>
+		<onenumber>47</onenumber>
+		<twonumber>65</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="8">
+		<name>不能自己放烟花</name>
+		<onenumber>47</onenumber>
+		<twonumber>66</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="9">
+		<name>玩火很危险</name>
+		<onenumber>47</onenumber>
+		<twonumber>67</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="10">
+		<name>烟雾探测器</name>
+		<onenumber>47</onenumber>
+		<twonumber>68</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="11">
+		<name>着火了怎么办</name>
+		<onenumber>47</onenumber>
+		<twonumber>69</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="12">
+		<name>打火机不能玩</name>
+		<onenumber>47</onenumber>
+		<twonumber>70</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="13">
+		<name>煤气灶很危险</name>
+		<onenumber>47</onenumber>
+		<twonumber>71</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="14">
+		<name>消防演习是怎么回事</name>
+		<onenumber>47</onenumber>
+		<twonumber>72</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="15">
+		<name>着火后怎样自救</name>
+		<onenumber>47</onenumber>
+		<twonumber>73</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="16">
+		<name>哪里适合户外烧烤</name>
+		<onenumber>47</onenumber>
+		<twonumber>74</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="17">
+		<name>出门前的安全检查</name>
+		<onenumber>47</onenumber>
+		<twonumber>75</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="18">
+		<name>放鞭炮要离得远一些</name>
+		<onenumber>47</onenumber>
+		<twonumber>76</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="19">
+		<name>安全出口</name>
+		<onenumber>47</onenumber>
+		<twonumber>77</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="20">
+		<name>救火有危险</name>
+		<onenumber>47</onenumber>
+		<twonumber>78</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="21">
+		<name>室外地上消防栓</name>
+		<onenumber>47</onenumber>
+		<twonumber>79</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="22">
+		<name>大人做饭时不要离太近</name>
+		<onenumber>48</onenumber>
+		<twonumber>24</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="23">
+		<name>房子里着火时要爬着逃离</name>
+		<onenumber>48</onenumber>
+		<twonumber>25</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="24">
+		<name>怎样使用灭火器</name>
+		<onenumber>48</onenumber>
+		<twonumber>26</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="25">
+		<name>身上着火该怎么办</name>
+		<onenumber>48</onenumber>
+		<twonumber>27</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="26">
+		<name>火灾时不能坐电梯</name>
+		<onenumber>48</onenumber>
+		<twonumber>28</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="27">
+		<name>灭火的方法有哪些</name>
+		<onenumber>48</onenumber>
+		<twonumber>29</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="28">
+		<name>不要把易燃物品放在散热器旁边</name>
+		<onenumber>48</onenumber>
+		<twonumber>30</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="29">
+		<name>消防服不怕火吗</name>
+		<onenumber>48</onenumber>
+		<twonumber>31</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="30">
+		<name>安全疏散示意图</name>
+		<onenumber>48</onenumber>
+		<twonumber>32</twonumber>
+		<mold>角色</mold>
+	</person>
+	
+</persons>

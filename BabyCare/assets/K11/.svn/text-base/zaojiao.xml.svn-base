@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>春夏秋冬</name>
+		<onenumber>29</onenumber>
+		<twonumber>24</twonumber>
+		<mold>早教</mold>
+	</person>
+	<person id="2">
+		<name>家庭成员称呼</name>
+		<onenumber>29</onenumber>
+		<twonumber>25</twonumber>
+		<mold>早教</mold>
+	</person>
+	<person id="3">
+		<name>礼貌问候用语</name>
+		<onenumber>29</onenumber>
+		<twonumber>26</twonumber>
+		<mold>早教</mold>
+	</person>
+	<person id="4">
+		<name>苹果之歌</name>
+		<onenumber>29</onenumber>
+		<twonumber>27</twonumber>
+		<mold>早教</mold>
+	</person>
+	<person id="5">
+		<name>日常用小短语</name>
+		<onenumber>29</onenumber>
+		<twonumber>28</twonumber>
+		<mold>早教</mold>
+	</person>
+	<person id="6">
+		<name>三只小猪</name>
+		<onenumber>29</onenumber>
+		<twonumber>29</twonumber>
+		<mold>早教</mold>
+	</person>
+	<person id="7">
+		<name>生日快乐歌</name>
+		<onenumber>29</onenumber>
+		<twonumber>30</twonumber>
+		<mold>早教</mold>
+	</person>
+	<person id="8">
+		<name>水果食物名称</name>
+		<onenumber>29</onenumber>
+		<twonumber>31</twonumber>
+		<mold>早教</mold>
+	</person>
+	<person id="9">
+		<name>五官名称歌</name>
+		<onenumber>29</onenumber>
+		<twonumber>32</twonumber>
+		<mold>早教</mold>
+	</person>
+	<person id="10">
+		<name>字母歌</name>
+		<onenumber>29</onenumber>
+		<twonumber>33</twonumber>
+		<mold>早教</mold>
+	</person>
+</persons>

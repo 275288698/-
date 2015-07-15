@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>怪物骑士</name>
+		<onenumber>43</onenumber>
+		<twonumber>32</twonumber>
+		<mold>字母故事</mold>
+	</person>
+	<person id="2">
+		<name>怪物小城</name>
+		<onenumber>43</onenumber>
+		<twonumber>33</twonumber>
+		<mold>字母故事</mold>
+	</person>
+	<person id="3">
+		<name>红母鸡</name>
+		<onenumber>43</onenumber>
+		<twonumber>34</twonumber>
+		<mold>字母故事</mold>
+	</person>
+	<person id="4">
+		<name>三个愿望</name>
+		<onenumber>43</onenumber>
+		<twonumber>35</twonumber>
+		<mold>字母故事</mold>
+	</person>
+	<person id="5">
+		<name>太空比赛</name>
+		<onenumber>43</onenumber>
+		<twonumber>36</twonumber>
+		<mold>字母故事</mold>
+	</person>
+	<person id="6">
+		<name>太空历险</name>
+		<onenumber>43</onenumber>
+		<twonumber>37</twonumber>
+		<mold>字母故事</mold>
+	</person>
+</persons>

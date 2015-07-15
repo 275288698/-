@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>憨憨小老头,不会跑来不会走，让他躺下睡，他就猛摇头。(打一物)</name>
+		<onenumber>43</onenumber>
+		<twonumber>70</twonumber>
+		<key>不倒翁</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="2">
+		<name>大火烧了桌和椅，拨打电话牢牢记，消防战士立即到，救人灭火喷水急(打一电话号码)</name>
+		<onenumber>43</onenumber>
+		<twonumber>71</twonumber>
+		<key>119</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="3">
+		<name>金黄坛子装饺子，红红饺子有珠子（打一水果）</name>
+		<onenumber>43</onenumber>
+		<twonumber>72</twonumber>
+		<key>橘子</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="4">
+		<name>小时青青腹中空，长大头发蓬蓬松，姐姐撑船不离它，哥哥钓鱼拿手中。（打一植物）</name>
+		<onenumber>43</onenumber>
+		<twonumber>73</twonumber>
+		<key>竹子</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="5">
+		<name>嘴儿尖，腿儿细，大大尾巴能扫地。生性疑神又疑鬼，常到农家去偷鸡。（ 打一动物）</name>
+		<onenumber>43</onenumber>
+		<twonumber>74</twonumber>
+		<key>黄鼠狼</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="6">
+		<name>小小糖包子，味甜像柿子（打一植物）</name>
+		<onenumber>43</onenumber>
+		<twonumber>75</twonumber>
+		<key>无花果</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="7">
+		<name>长方桌子铺绿毯，六个口袋挂桌边，长杆击打五彩球，一个一个都打完(打一体育比赛项目)</name>
+		<onenumber>43</onenumber>
+		<twonumber>76</twonumber>
+		<key>台球</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="8">
+		<name>一会大一会小，照得人儿真奇妙（打一生活物品）</name>
+		<onenumber>43</onenumber>
+		<twonumber>77</twonumber>
+		<key>哈哈镜</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="9">
+		<name>薄薄沙袋不装粮，专门盖在口鼻上，下雪刮风防感冒，医生戴它看病忙(打一日用品)</name>
+		<onenumber>43</onenumber>
+		<twonumber>78</twonumber>
+		<key>口罩</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="10">
+		<name>青青果子浑身毛，绿色果肉味佳肴（打一水果）</name>
+		<onenumber>43</onenumber>
+		<twonumber>79</twonumber>
+		<key>猕猴桃</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="11">
+		<name>一串山里红，蘸糖甜生生，冷冷风刺骨寒，吃它最解馋(打一食品)</name>
+		<onenumber>44</onenumber>
+		<twonumber>24</twonumber>
+		<key>冰糖葫芦</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="12">
+		<name>水晶玻璃好模样，纯净水儿里面放（打一生活用品）</name>
+		<onenumber>44</onenumber>
+		<twonumber>25</twonumber>
+		<key>杯子</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="13">
+		<name>黄布袋，包银珠，秋天一到满地铺(打一农作物)</name>
+		<onenumber>44</onenumber>
+		<twonumber>26</twonumber>
+		<key>稻子</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="14">
+		<name>细白嫩肉裹紫衣，霜儿一打不成器（打一蔬菜）</name>
+		<onenumber>44</onenumber>
+		<twonumber>27</twonumber>
+		<key>茄子</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="15">
+		<name>青青色泽葡萄王，酸甜适口水一筐（打一水果）</name>
+		<onenumber>44</onenumber>
+		<twonumber>28</twonumber>
+		<key>提子</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="16">
+		<name>弯弯藤儿架上爬，串串珍珠上边挂（打一水果）</name>
+		<onenumber>44</onenumber>
+		<twonumber>29</twonumber>
+		<key>葡萄</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="17">
+		<name>一个黑孩，从不开口，要是开口，掉出舌头。(打一食品)</name>
+		<onenumber>44</onenumber>
+		<twonumber>30</twonumber>
+		<key>瓜籽</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="18">
+		<name>五个兄弟，住在一起，名字不同，高矮不齐。(打一身体部位)</name>
+		<onenumber>44</onenumber>
+		<twonumber>31</twonumber>
+		<key>手指</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="19">
+		<name>屋子方方，有门没窗，屋外热烘，屋里冰霜。(打一电器)</name>
+		<onenumber>44</onenumber>
+		<twonumber>32</twonumber>
+		<key>冰箱</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="20">
+		<name>独木造高楼，没瓦没砖头，人在水下走，水在人上流。(打一日用品)</name>
+		<onenumber>44</onenumber>
+		<twonumber>33</twonumber>
+		<key>雨伞</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="21">
+		<name>一个小姑娘，生在水中央，身穿粉红衫，坐在绿船上。(打一植物)</name>
+		<onenumber>44</onenumber>
+		<twonumber>34</twonumber>
+		<key>荷花</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="22">
+		<name>有面没有口，有脚没有手，虽有四只脚，自己不会走。(打一日用品)</name>
+		<onenumber>44</onenumber>
+		<twonumber>35</twonumber>
+		<key>桌子</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="23">
+		<name>身穿绿衣裳，肚里水汪汪，生的子儿多，个个黑脸膛。(打一水果)</name>
+		<onenumber>44</onenumber>
+		<twonumber>36</twonumber>
+		<key>西瓜</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="24">
+		<name>颜色白如雪，身子硬如铁，一日洗三遍，夜晚柜中歇。(打一日用品)</name>
+		<onenumber>44</onenumber>
+		<twonumber>37</twonumber>
+		<key>碗</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="25">
+		<name>头戴红帽子，身披五彩衣，从来不唱戏，喜欢吊嗓子(打一动物)</name>
+		<onenumber>44</onenumber>
+		<twonumber>38</twonumber>
+		<key>公鸡</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="26">
+		<name>有头没有颈，身上冷冰冰，有翅不能飞，无脚也能行(打一动物)</name>
+		<onenumber>44</onenumber>
+		<twonumber>39</twonumber>
+		<key>鱼</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="27">
+		<name>耳朵像蒲扇，身子像小山，鼻子长又长，帮人把活干。 (打一动物)</name>
+		<onenumber>44</onenumber>
+		<twonumber>40</twonumber>
+		<key>大象</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="28">
+		<name>有个矮将军，身上挂满刀，刀鞘外长毛，里面藏宝宝。(打一植物)</name>
+		<onenumber>44</onenumber>
+		<twonumber>41</twonumber>
+		<key>大豆</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="29">
+		<name>兄弟几个真和气，天天并肩坐一起，少时喜欢绿衣服，老来都穿黄色衣。(打一水果)</name>
+		<onenumber>44</onenumber>
+		<twonumber>42</twonumber>
+		<key>香蕉</key>
+		<mold>猜谜语</mold>
+	</person>
+	<person id="30">
+		<name>颜色有白又有灰，经过驯养很聪明，可以当做联络员，飞山越岭把信送。(打一动物)</name>
+		<onenumber>44</onenumber>
+		<twonumber>43</twonumber>
+		<key>鸽子</key>
+		<mold>猜谜语</mold>
+	</person>
+</persons>

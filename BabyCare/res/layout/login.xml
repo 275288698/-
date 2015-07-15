@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/denglu"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape"
+        android:text="注册优彼会员"
+        android:textSize="20dip"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/tiaoguo"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/zhuce"
+        android:layout_below="@+id/zhuce"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/shape"
+        android:text="跳过注册，直接使用"
+        android:textSize="20dip"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/denglu"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/zhuce"
+        android:layout_below="@+id/zhuce"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:text="优彼会员登录"
+        android:textColor="#ffffff"
+        android:textSize="20dip" />
+
+    <Button
+        android:id="@+id/denglu1"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/zhuce"
+        android:layout_below="@+id/zhuce"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape"
+        android:text="(“宝贝家”官网帐号通用)"
+        android:textColor="#ffffff"
+        android:textSize="12dip" />
+
+</RelativeLayout>

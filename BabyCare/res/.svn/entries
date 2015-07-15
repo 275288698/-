@@ -1,0 +1,79 @@
+10
+
+dir
+4
+https://user-20150304mm:8443/svn/Project_BabyCare/BabyCare/res
+https://user-20150304mm:8443/svn/Project_BabyCare
+
+
+
+2015-04-09T08:39:20.005974Z
+4
+yiqin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ae82a0ef-bf66-0d4a-a86d-86d422353389
+
+values-sw720dp-land
+dir
+
+drawable
+dir
+
+drawable-xxhdpi
+dir
+
+anim
+dir
+
+drawable-nodpi
+dir
+
+raw
+dir
+
+drawable-xhdpi
+dir
+
+values
+dir
+
+values-sw600dp
+dir
+
+drawable-hdpi
+dir
+
+menu
+dir
+
+values-v11
+dir
+
+values-v14
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+
+color
+dir
+

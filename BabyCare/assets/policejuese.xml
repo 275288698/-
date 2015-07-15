@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>不跟陌生人走</name>
+		<onenumber>47</onenumber>
+		<twonumber>24</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="2">
+		<name>按时归队</name>
+		<onenumber>47</onenumber>
+		<twonumber>25</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="3">
+		<name>好好看路不摔跤</name>
+		<onenumber>47</onenumber>
+		<twonumber>26</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="4">
+		<name>红绿灯的故事</name>
+		<onenumber>47</onenumber>
+		<twonumber>27</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="5">
+		<name>买票还是不买票</name>
+		<onenumber>47</onenumber>
+		<twonumber>28</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="6">
+		<name>坐大船时不乱跑</name>
+		<onenumber>47</onenumber>
+		<twonumber>29</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="7">
+		<name>停车场里要小心</name>
+		<onenumber>47</onenumber>
+		<twonumber>30</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="8">
+		<name>踩水好危险</name>
+		<onenumber>47</onenumber>
+		<twonumber>31</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="9">
+		<name>不要站在汽车后面</name>
+		<onenumber>47</onenumber>
+		<twonumber>32</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="10">
+		<name>马路上为什么粘粘的</name>
+		<onenumber>47</onenumber>
+		<twonumber>33</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="11">
+		<name>小老鼠上街</name>
+		<onenumber>47</onenumber>
+		<twonumber>34</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="12">
+		<name>在马路上不跑跳</name>
+		<onenumber>47</onenumber>
+		<twonumber>35</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="13">
+		<name>优彼让座</name>
+		<onenumber>47</onenumber>
+		<twonumber>36</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="14">
+		<name>车上吃东西要小心</name>
+		<onenumber>47</onenumber>
+		<twonumber>37</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="15">
+		<name>小黄帽排排队</name>
+		<onenumber>47</onenumber>
+		<twonumber>38</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="16">
+		<name>淘淘和优彼的探险</name>
+		<onenumber>47</onenumber>
+		<twonumber>39</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="17">
+		<name>马路上隐藏着的危险</name>
+		<onenumber>47</onenumber>
+		<twonumber>40</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="18">
+		<name>我来指挥交通</name>
+		<onenumber>47</onenumber>
+		<twonumber>41</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="19">
+		<name>安全座椅</name>
+		<onenumber>47</onenumber>
+		<twonumber>42</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="20">
+		<name>遵守秩序不用挤</name>
+		<onenumber>47</onenumber>
+		<twonumber>43</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="21">
+		<name>斑马和斑马线</name>
+		<onenumber>47</onenumber>
+		<twonumber>44</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="22">
+		<name>不能在马路上玩耍</name>
+		<onenumber>47</onenumber>
+		<twonumber>45</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="23">
+		<name>臭臭的尾气</name>
+		<onenumber>47</onenumber>
+		<twonumber>46</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="24">
+		<name>一停二看三通过</name>
+		<onenumber>47</onenumber>
+		<twonumber>47</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="25">
+		<name>横穿马路太危险</name>
+		<onenumber>47</onenumber>
+		<twonumber>48</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="26">
+		<name>乘坐地铁时不能带什么</name>
+		<onenumber>47</onenumber>
+		<twonumber>49</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="27">
+		<name>乱扔东西的淘淘</name>
+		<onenumber>47</onenumber>
+		<twonumber>50</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="28">
+		<name>不能在火车铁轨上玩</name>
+		<onenumber>47</onenumber>
+		<twonumber>51</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="29">
+		<name>过马路许可证</name>
+		<onenumber>47</onenumber>
+		<twonumber>52</twonumber>
+		<mold>角色</mold>
+	</person>
+	<person id="30">
+		<name>车厢里不要吃怪味的东西</name>
+		<onenumber>47</onenumber>
+		<twonumber>53</twonumber>
+		<mold>角色</mold>
+	</person>
+	
+</persons>

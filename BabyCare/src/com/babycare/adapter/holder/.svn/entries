@@ -1,22 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?>
-<wc-entries
-   xmlns="svn:">
-<entry
-   repos="https://192.168.0.12:8443/svn/Android"
-   name=""
-   revision="1879"
-   last-author="louym"
-   uuid="583a2664-2b50-984c-b98e-07e8550d6889"
-   url="https://192.168.0.12:8443/svn/Android/trunk/canyin/CYinMo/src/com/canyin/mo/adapter/holder"
-   committed-rev="1878"
-   kind="dir"
-   committed-date="2014-12-25T02:19:25.937625Z"/>
-<entry
-   name="CommViewHolder.java"
-   last-author="louym"
-   text-time="2014-12-25T02:19:25.937000Z"
-   committed-rev="1878"
-   kind="file"
-   committed-date="2014-12-25T02:19:25.937625Z"
-   checksum="c4a24d091bb584124732c89c92aa0925"/>
-</wc-entries>
+10
+
+dir
+4
+https://user-20150304mm:8443/svn/Project_BabyCare/BabyCare/src/com/babycare/adapter/holder
+https://user-20150304mm:8443/svn/Project_BabyCare
+
+
+
+2015-04-09T08:39:20.005974Z
+4
+yiqin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ae82a0ef-bf66-0d4a-a86d-86d422353389
+
+CommViewHolder.java
+file
+
+
+
+
+2015-04-08T03:16:53.510332Z
+49d7c597b4d062f20e551dc3d112305d
+2015-04-09T08:39:20.005974Z
+4
+yiqin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4657
+

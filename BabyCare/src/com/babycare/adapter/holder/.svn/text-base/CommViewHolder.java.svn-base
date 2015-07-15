@@ -1,4 +1,4 @@
-package com.canyin.mo.adapter.holder;
+package com.babycare.adapter.holder;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -9,8 +9,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.canyin.mo.base.BaseApplication;
-import com.nostra13.universalimageloader.core.assist.SimpleImageLoadingListener;
 
 /** 通用的ViewHolder写法 */
 public class CommViewHolder {
@@ -124,12 +122,12 @@ public class CommViewHolder {
      * @param url 
      * @return 
      */  
-    public CommViewHolder setImageViewByUrl(ImageView imgView, String url)
-    {  
-        BaseApplication.imageLoader.displayImage(url, imgView, BaseApplication.options);
-        
-        return this;  
-    }  
+//    public CommViewHolder setImageViewByUrl(ImageView imgView, String url)
+//    {  
+//        BaseApplication.imageLoader.displayImage(url, imgView, BaseApplication.options);
+//        
+//        return this;  
+//    }  
   
     /** 
      * 为ImageView设置图片 
@@ -138,11 +136,11 @@ public class CommViewHolder {
      * @param url 
      * @return 
      */  
-    public CommViewHolder setImageByUrl(final int viewId, String url)  
-    {  
-        BaseApplication.imageLoader.displayImage(url, (ImageView) getView(viewId), BaseApplication.options);
-        return this;  
-    }  
+//    public CommViewHolder setImageByUrl(final int viewId, String url)  
+//    {  
+//        BaseApplication.imageLoader.displayImage(url, (ImageView) getView(viewId), BaseApplication.options);
+//        return this;  
+//    }  
     /** 
      * 为ImageView设置图片 防止listview滑动时图片闪动
      *  
@@ -150,22 +148,22 @@ public class CommViewHolder {
      * @param url 
      * @return 
      */  
-    public CommViewHolder setImageByUrlLoadImage(int viewId, String url)  
-    {  
-        final ImageView imageView = getView(viewId);
-        BaseApplication.imageLoader.loadImage(url, new SimpleImageLoadingListener(){
-        	@Override
-        	public void onLoadingComplete(String imageUri, View view,
-        			Bitmap loadedImage) {
-        		super.onLoadingComplete(imageUri, view, loadedImage);
-        		
-        		imageView.setImageBitmap(loadedImage);
-        	}
-        });
-        
-        
-        return this;  
-    }  
+//    public CommViewHolder setImageByUrlLoadImage(int viewId, String url)  
+//    {  
+//        final ImageView imageView = getView(viewId);
+//        BaseApplication.imageLoader.loadImage(url, new SimpleImageLoadingListener(){
+//        	@Override
+//        	public void onLoadingComplete(String imageUri, View view,
+//        			Bitmap loadedImage) {
+//        		super.onLoadingComplete(imageUri, view, loadedImage);
+//        		
+//        		imageView.setImageBitmap(loadedImage);
+//        	}
+//        });
+//        
+//        
+//        return this;  
+//    }  
     public void setPosition(int position){
 		
     	mPosition = position;

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp" >
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="添加围栏"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="add"
+            android:textColor="#b9b9b9"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/ico_gray_add"
+            android:drawablePadding="5dp"
+            />
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="删除围栏"
+            android:layout_weight="1"
+            android:gravity="center"
+             android:clickable="true"
+            android:onClick="delete"
+             android:textColor="#b9b9b9"
+            android:textSize="12sp"
+             android:drawableTop="@drawable/ico_gray_delete"
+            android:drawablePadding="5dp"
+            />
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="扩大围栏"
+            android:layout_weight="1"
+            android:gravity="center"
+             android:clickable="true"
+            android:onClick="expand"
+             android:textColor="#b9b9b9"
+            android:textSize="12sp"
+             android:drawableTop="@drawable/ico_gray_expand"
+            android:drawablePadding="5dp"
+            />
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="缩小围栏"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="narrow"
+             android:textColor="#b9b9b9"
+            android:textSize="12sp"
+             android:drawableTop="@drawable/ico_gray_narrow"
+            android:drawablePadding="5dp"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

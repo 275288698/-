@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.babycare"
+    android:configChanges="orientation"
+    android:screenOrientation="nosensor"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="8"
         android:targetSdkVersion="18" />
 
     <application
-        android:name=".app.AppApplication"
+        android:name="com.babycare.app.MyAplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="P8KrbAdry5U1GIZLCBPXL7ZF" />
+            android:value="Gv5uAAsMdigfngKTcjjPeMMF" />
 
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
             android:process=":remote" >
         </service>
-        
+
         <activity
             android:name="com.babycare.Welcome"
             android:label="@string/app_name" >
         </activity>
-        <activity android:name="com.babycare.YQ_VolumeChange_Activity" 
-            android:theme="@style/custom_title">
-            
+        <activity
+            android:name="com.babycare.YQ_VolumeChange_Activity"
+            android:theme="@style/custom_title" >
         </activity>
         <activity android:name="com.babycare.ChannelActivity" >
         </activity>
@@ -48,14 +49,17 @@
             android:theme="@style/custom_title" >
         </activity>
         <activity
+            android:name="com.babycare.YQ_BindActivity"
+            android:theme="@style/custom_title" >
+        </activity>
+        <activity
             android:name="com.babycare.YQ_LoginActivity"
             android:theme="@style/custom_title" >
-                     <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-             
         </activity>
         <activity
             android:name="com.babycare.YQ_BabyManageActivity"
@@ -89,14 +93,133 @@
             android:name="com.babycare.YQ_AboutUsActivity"
             android:theme="@style/custom_title" >
         </activity>
-        <activity android:name="com.babycare.ElectronicFence"
-             android:theme="@style/custom_title" ></activity>
-        <activity android:name="com.babycare.ForgetPwdActivity"
-            android:theme="@style/custom_title"></activity>
+        <activity
+            android:name="com.babycare.ElectronicFence"
+            android:theme="@style/custom_title" >
+        </activity>
+             <activity
+            android:name="com.babycare.YQ_PersionInfoActivity"
+            android:theme="@style/custom_title" >
+        </activity>
+        
+        <activity
+            android:name="com.babycare.ForgetPwdActivity"
+            android:theme="@style/custom_title" >
+        </activity>
         <activity
             android:name="com.babycare.ContentMainActivity"
             android:theme="@style/custom_title" >
-  
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+ <!-- Login -->
+
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.caimiyu"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.Shezhi"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.Xinxi"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.Bangzhu"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.Fankui"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.Denglu"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.Zhuce"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.MainActivity7"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.Xieyi"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.Leixing"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.MainActivity1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.MainActivity2"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.MainActivity3"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.MainActivity4"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.MainActivity5"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.MainActivity6"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.Login"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.Xiugai"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="generalplus.com.BabudouAssistant.Wangji"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
     </application>
 
@@ -108,17 +231,20 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <!-- 震动权限 -->
     <uses-permission android:name="android.permission.VIBRATE" />
-    
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />  
-<uses-permission android:name="android.permission.USE_CREDENTIALS" />  
-<uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />  
-<uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />  
-<uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />  
-<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />  
-<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />  
-<uses-permission android:name="android.permission.READ_PHONE_STATE" />  
-<uses-permission android:name="android.permission.BROADCAST_STICKY" />  
-<uses-permission android:name="android.permission.WRITE_SETTINGS" />  
-<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 允许应用程序写到外部存储器 -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY" />
 
 </manifest>

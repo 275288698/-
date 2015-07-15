@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/adapter
+END
+NewsFragmentPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/adapter/NewsFragmentPagerAdapter.java
+END
+ImagePagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/adapter/ImagePagerAdapter.java
+END
+OtherAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/adapter/OtherAdapter.java
+END
+ImageAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Project_BabyCare/!svn/ver/14/BabyCare/src/com/babycare/adapter/ImageAdapter.java
+END
+CityAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/adapter/CityAdapter.java
+END
+AdapterParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/adapter/AdapterParse.java
+END
+CommAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/adapter/CommAdapter.java
+END
+NewsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/adapter/NewsAdapter.java
+END
+DragAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/adapter/DragAdapter.java
+END

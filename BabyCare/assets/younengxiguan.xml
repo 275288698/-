@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>《拉着妈妈的手》</name>
+		<onenumber>41</onenumber>
+		<twonumber>31</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="2">
+		<name>《苹果，别跑》</name>
+		<onenumber>41</onenumber>
+		<twonumber>32</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="3">
+		<name>《睡觉真舒服》</name>
+		<onenumber>24</onenumber>
+		<twonumber>72</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="4">
+		<name>《谁的灯还亮着》</name>
+		<onenumber>24</onenumber>
+		<twonumber>73</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="5">
+		<name>《早起真好》</name>
+		<onenumber>25</onenumber>
+		<twonumber>26</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="6">
+		<name>《嘘，小声点》</name>
+		<onenumber>41</onenumber>
+		<twonumber>33</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="7">
+		<name>《玩具要回家》</name>
+		<onenumber>25</onenumber>
+		<twonumber>32</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="8">
+		<name>《等一会儿》</name>
+		<onenumber>24</onenumber>
+		<twonumber>70</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="9">
+		<name>《穿衣服比赛》</name>
+		<onenumber>24</onenumber>
+		<twonumber>62</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="10">
+		<name>《红灯停，绿灯行》</name>
+		<onenumber>41</onenumber>
+		<twonumber>34</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="11">
+		<name>《对不起，没关系》</name>
+		<onenumber>41</onenumber>
+		<twonumber>35</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="12">
+		<name>《大声说“哎”》</name>
+		<onenumber>41</onenumber>
+		<twonumber>36</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="13">
+		<name>《不乱扔垃圾》</name>
+		<onenumber>24</onenumber>
+		<twonumber>71</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="14">
+		<name>《蔬菜娃娃》</name>
+		<onenumber>41</onenumber>
+		<twonumber>37</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="15">
+		<name>《一个人也能玩儿》</name>
+		<onenumber>41</onenumber>
+		<twonumber>38</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="16">
+		<name>《我的玩具》</name>
+		<onenumber>25</onenumber>
+		<twonumber>25</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="17">
+		<name>《刷牙》</name>
+		<onenumber>41</onenumber>
+		<twonumber>39</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="18">
+		<name>《小手洗干净》</name>
+		<onenumber>25</onenumber>
+		<twonumber>27</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="19">
+		<name>《吃完饭再玩儿》</name>
+		<onenumber>41</onenumber>
+		<twonumber>40</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="20">
+		<name>《排排站》</name>
+		<onenumber>24</onenumber>
+		<twonumber>66</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="21">
+		<name>《我能吃光光》</name>
+		<onenumber>41</onenumber>
+		<twonumber>41</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="22">
+		<name>《叔叔好》</name>
+		<onenumber>24</onenumber>
+		<twonumber>67</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="23">
+		<name>《我会自己吃饭》</name>
+		<onenumber>24</onenumber>
+		<twonumber>68</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="24">
+		<name>《水龙头，别哭了》</name>
+		<onenumber>24</onenumber>
+		<twonumber>69</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="25">
+		<name>《不能迟到》</name>
+		<onenumber>25</onenumber>
+		<twonumber>28</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="26">
+		<name>《幼儿园真好》</name>
+		<onenumber>25</onenumber>
+		<twonumber>29</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="27">
+		<name>《大家一起吃》</name>
+		<onenumber>41</onenumber>
+		<twonumber>42</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="28">
+		<name>《我要尿尿》</name>
+		<onenumber>24</onenumber>
+		<twonumber>74</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="29">
+		<name>《你会穿鞋吗》</name>
+		<onenumber>24</onenumber>
+		<twonumber>75</twonumber>
+		<mold>习惯</mold>
+	</person>
+	<person id="30">
+		<name>《我要长高高》</name>
+		<onenumber>25</onenumber>
+		<twonumber>30</twonumber>
+		<mold>习惯</mold>
+	</person>
+</persons>

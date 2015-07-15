@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<person id="1">
+		<name>百家姓</name>
+		<onenumber>38</onenumber>
+		<twonumber>29</twonumber>
+		<mold>百家姓</mold>
+	</person>
+</persons>

@@ -2,6 +2,8 @@ package com.babycare.view;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.CompoundButton;
@@ -17,6 +19,7 @@ import com.babycare.StoryMachine;
 import com.babycare.YQ_AboutUsActivity;
 import com.babycare.YQ_BabyManageActivity;
 import com.babycare.YQ_LoginActivity;
+import com.babycare.YQ_PersionInfoActivity;
 import com.babycare.YQ_TimeCycleActivity;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu.OnClosedListener;
@@ -41,12 +44,16 @@ public class DrawerView implements OnClickListener{
 	
 	/**绘制轨迹*/
 	private TextView track_draw_btn;
+
 	/**电话回拨*/
 	private TextView phone_call_back_btn;
 	/**电子围栏*/
 	private TextView electronic_fence_btn;
-	
+	private boolean is_track_draw_btn,is_phone_call_back_btn,is_electronic_fence_btn;
 	private LinearLayout login_btn;
+	
+	public final static int SEARCH_BTN = 111;
+	
 	
 	public DrawerView(Activity activity) {
 		this.activity = activity;
@@ -113,15 +120,16 @@ public class DrawerView implements OnClickListener{
 	public void onClick(View v) {
 		switch (v.getId()) {
 		
-		//登录
+			//登录
 		case R.id.login_btn:
-			activity.startActivity(new Intent(activity,YQ_LoginActivity.class));
+//			activity.startActivity(new Intent(activity,YQ_LoginActivity.class));
+			activity.startActivity(new Intent(activity,YQ_PersionInfoActivity.class));
 			activity.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 			localSlidingMenu.showContent();
 			break;
 			//电子围栏
 		case R.id.search_btn:
-			activity.startActivity(new Intent(activity,ElectronicFence.class));
+			activity.startActivityForResult(new Intent(activity,ElectronicFence.class),SEARCH_BTN);
 			activity.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 			localSlidingMenu.showContent();
 			break;
@@ -158,22 +166,62 @@ public class DrawerView implements OnClickListener{
 			
 			//绘制轨迹
 		case R.id.track_draw_btn:
-			activity.startActivity(new Intent(activity,YQ_AboutUsActivity.class));
-			activity.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
-			localSlidingMenu.showContent();
+			if (is_track_draw_btn) {
+				track_draw_btn.setTextColor(Color.parseColor("#b2b2b2"));
+				Drawable nav_up=activity.getResources().getDrawable(R.drawable.ico_gray_fence_off);  
+				nav_up.setBounds(0, 0, nav_up.getMinimumWidth(), nav_up.getMinimumHeight());  
+				track_draw_btn.setCompoundDrawables(null, nav_up,null, null); 
+			}else {
+				track_draw_btn.setTextColor(Color.parseColor("#4ead4f"));
+				Drawable nav_up=activity.getResources().getDrawable(R.drawable.ico_gray_fence_on);  
+				nav_up.setBounds(0, 0, nav_up.getMinimumWidth(), nav_up.getMinimumHeight());  
+				track_draw_btn.setCompoundDrawables(null, nav_up,null, null); 
+			}
+			is_track_draw_btn = !is_track_draw_btn;
+//			activity.startActivity(new Intent(activity,YQ_AboutUsActivity.class));
+//			activity.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+			
+//			localSlidingMenu.showContent();
 			break;	
 			
 			//电话回拨
 		case R.id.phone_call_back_btn:
-			activity.startActivity(new Intent(activity,YQ_AboutUsActivity.class));
-			activity.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
-			localSlidingMenu.showContent();
+//			activity.startActivity(new Intent(activity,YQ_AboutUsActivity.class));
+//			activity.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+			
+			if (is_phone_call_back_btn) {
+				phone_call_back_btn.setTextColor(Color.parseColor("#b2b2b2"));
+				Drawable nav_up=activity.getResources().getDrawable(R.drawable.ico_gray_callback_off);  
+				nav_up.setBounds(0, 0, nav_up.getMinimumWidth(), nav_up.getMinimumHeight());  
+				phone_call_back_btn.setCompoundDrawables(null, nav_up,null, null); 
+			}else {
+				phone_call_back_btn.setTextColor(Color.parseColor("#4ead4f"));
+				Drawable nav_up=activity.getResources().getDrawable(R.drawable.ico_gray_callback_on);  
+				nav_up.setBounds(0, 0, nav_up.getMinimumWidth(), nav_up.getMinimumHeight());  
+				phone_call_back_btn.setCompoundDrawables(null, nav_up,null, null); 
+			}
+			is_phone_call_back_btn = !is_phone_call_back_btn;
+//			localSlidingMenu.showContent();
 			break;	
 			//电子围栏
 		case R.id.electronic_fence_btn:
-			activity.startActivity(new Intent(activity,ElectronicFence.class));
-			activity.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
-			localSlidingMenu.showContent();
+//			activity.startActivity(new Intent(activity,ElectronicFence.class));
+//			activity.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+			
+			if (is_electronic_fence_btn) {
+				electronic_fence_btn.setTextColor(Color.parseColor("#b2b2b2"));
+				Drawable nav_up=activity.getResources().getDrawable(R.drawable.ico_gray_fence_off);  
+				nav_up.setBounds(0, 0, nav_up.getMinimumWidth(), nav_up.getMinimumHeight());  
+				electronic_fence_btn.setCompoundDrawables(null, nav_up,null, null); 
+			}else {
+				electronic_fence_btn.setTextColor(Color.parseColor("#4ead4f"));
+				Drawable nav_up=activity.getResources().getDrawable(R.drawable.ico_gray_fence_on);  
+				nav_up.setBounds(0, 0, nav_up.getMinimumWidth(), nav_up.getMinimumHeight());  
+				electronic_fence_btn.setCompoundDrawables(null, nav_up,null, null); 
+			}
+			is_electronic_fence_btn = !is_electronic_fence_btn;
+			
+//			localSlidingMenu.showContent();
 			break;	
 	
 		default:

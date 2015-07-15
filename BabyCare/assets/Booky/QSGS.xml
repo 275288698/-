@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>和奶奶在一起</name>
+		<onenumber>32</onenumber>
+		<twonumber>61</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="2">
+		<name>这是什么东西？！</name>
+		<onenumber>32</onenumber>
+		<twonumber>62</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="3">
+		<name>这是你的鞋子吗</name>
+		<onenumber>32</onenumber>
+		<twonumber>63</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="4">
+		<name>再见</name>
+		<onenumber>32</onenumber>
+		<twonumber>64</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="5">
+		<name>我能照顾好妹妹</name>
+		<onenumber>32</onenumber>
+		<twonumber>65</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="6">
+		<name>那是布奇吗</name>
+		<onenumber>32</onenumber>
+		<twonumber>66</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="7">
+		<name>我喜欢你</name>
+		<onenumber>32</onenumber>
+		<twonumber>67</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="8">
+		<name>猜猜这是谁</name>
+		<onenumber>32</onenumber>
+		<twonumber>68</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="9">
+		<name>我要穿这一件</name>
+		<onenumber>32</onenumber>
+		<twonumber>69</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="10">
+		<name>家里来客人了</name>
+		<onenumber>32</onenumber>
+		<twonumber>70</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="11">
+		<name>阿迪逛超市</name>
+		<onenumber>32</onenumber>
+		<twonumber>71</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="12">
+		<name>你怎么哭了</name>
+		<onenumber>32</onenumber>
+		<twonumber>72</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="13">
+		<name>妈妈是我的</name>
+		<onenumber>32</onenumber>
+		<twonumber>73</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="14">
+		<name>嗨哟嗨哟划船喽</name>
+		<onenumber>32</onenumber>
+		<twonumber>74</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="15">
+		<name>雪娃娃，不哭不哭</name>
+		<onenumber>32</onenumber>
+		<twonumber>75</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="16">
+		<name>原来，小影子是我的</name>
+		<onenumber>32</onenumber>
+		<twonumber>76</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="17">
+		<name>我做妈妈，你做爸爸</name>
+		<onenumber>32</onenumber>
+		<twonumber>77</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="18">
+		<name>这个顺序可不能错</name>
+		<onenumber>32</onenumber>
+		<twonumber>78</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="19">
+		<name>爸爸时间到了</name>
+		<onenumber>32</onenumber>
+		<twonumber>79</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="20">
+		<name>月亮乖乖快睡觉</name>
+		<onenumber>33</onenumber>
+		<twonumber>24</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="21">
+		<name>害羞的小米</name>
+		<onenumber>33</onenumber>
+		<twonumber>25</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="22">
+		<name>不，我不要！</name>
+		<onenumber>33</onenumber>
+		<twonumber>26</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="23">
+		<name>好想好想吃了它</name>
+		<onenumber>33</onenumber>
+		<twonumber>27</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="24">
+		<name>明天我还要去幼儿园</name>
+		<onenumber>33</onenumber>
+		<twonumber>28</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="25">
+		<name>爱的味道</name>
+		<onenumber>33</onenumber>
+		<twonumber>29</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="26">
+		<name>新布谷鸟飞来了</name>
+		<onenumber>33</onenumber>
+		<twonumber>30</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="27">
+		<name>今天我长大了</name>
+		<onenumber>33</onenumber>
+		<twonumber>31</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="28">
+		<name>拔呀拔呀，拔蘑菇</name>
+		<onenumber>33</onenumber>
+		<twonumber>32</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="29">
+		<name>说到做到我真棒</name>
+		<onenumber>33</onenumber>
+		<twonumber>33</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="30">
+		<name>试一试我也能做到</name>
+		<onenumber>33</onenumber>
+		<twonumber>34</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="31">
+		<name>我不要变成小魔怪</name>
+		<onenumber>33</onenumber>
+		<twonumber>35</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="32">
+		<name>特别的礼物</name>
+		<onenumber>33</onenumber>
+		<twonumber>36</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="33">
+		<name>故事里来的小木偶</name>
+		<onenumber>33</onenumber>
+		<twonumber>37</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="34">
+		<name>了不起的爸爸</name>
+		<onenumber>33</onenumber>
+		<twonumber>38</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="35">
+		<name>没关系，你不是故意的</name>
+		<onenumber>33</onenumber>
+		<twonumber>39</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="36">
+		<name>我真的很棒</name>
+		<onenumber>33</onenumber>
+		<twonumber>40</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="37">
+		<name>汪汪乖乖，我爱你</name>
+		<onenumber>33</onenumber>
+		<twonumber>41</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="38">
+		<name>木屋里的老爷爷</name>
+		<onenumber>33</onenumber>
+		<twonumber>42</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="39">
+		<name>我想做个宇航员</name>
+		<onenumber>33</onenumber>
+		<twonumber>43</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="40">
+		<name>再也不画一半了</name>
+		<onenumber>33</onenumber>
+		<twonumber>44</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="41">
+		<name>我能打败大妖怪</name>
+		<onenumber>33</onenumber>
+		<twonumber>45</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="42">
+		<name>糟了，白云要掉下来了</name>
+		<onenumber>33</onenumber>
+		<twonumber>46</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="43">
+		<name>寄给爸爸的拥抱</name>
+		<onenumber>33</onenumber>
+		<twonumber>47</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="44">
+		<name>我的嘴巴回来了</name>
+		<onenumber>33</onenumber>
+		<twonumber>48</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="45">
+		<name>对不起，朋友</name>
+		<onenumber>33</onenumber>
+		<twonumber>49</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="46">
+		<name>你想坐我的脚踏车吗</name>
+		<onenumber>33</onenumber>
+		<twonumber>50</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="47">
+		<name>是我打翻了草莓酱</name>
+		<onenumber>33</onenumber>
+		<twonumber>51</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="48">
+		<name>我们去找宝藏吧</name>
+		<onenumber>33</onenumber>
+		<twonumber>52</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="49">
+		<name>小蜗牛的秘密</name>
+		<onenumber>33</onenumber>
+		<twonumber>53</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="50">
+		<name>我很厉害</name>
+		<onenumber>33</onenumber>
+		<twonumber>54</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="51">
+		<name>一起去找恐龙石</name>
+		<onenumber>33</onenumber>
+		<twonumber>55</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="52">
+		<name>送小星星回家</name>
+		<onenumber>33</onenumber>
+		<twonumber>56</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="53">
+		<name>我能照顾好妹妹</name>
+		<onenumber>33</onenumber>
+		<twonumber>57</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="54">
+		<name>越变越大的魔力扇</name>
+		<onenumber>33</onenumber>
+		<twonumber>58</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="55">
+		<name>世界上最美味的蛋糕</name>
+		<onenumber>33</onenumber>
+		<twonumber>59</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="56">
+		<name>要是没有了耳朵</name>
+		<onenumber>33</onenumber>
+		<twonumber>60</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="57">
+		<name>树房子里的新客人</name>
+		<onenumber>33</onenumber>
+		<twonumber>61</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="58">
+		<name>这可不是一件小事情</name>
+		<onenumber>33</onenumber>
+		<twonumber>62</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="59">
+		<name>我有自己的小存折啦</name>
+		<onenumber>33</onenumber>
+		<twonumber>63</twonumber>
+		<mold>情商故事</mold>
+	</person>
+	<person id="60">
+		<name>幼儿园来了个男老师</name>
+		<onenumber>33</onenumber>
+		<twonumber>64</twonumber>
+		<mold>情商故事</mold>
+	</person>
+</persons>

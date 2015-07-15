@@ -42,10 +42,7 @@ public class YQ_VolumeChange_Activity extends CustomTitleActivity {
 			T.showShort(YQ_VolumeChange_Activity.this, "请根据环境选择适宜的音量");
 			tv_volume.setText(Integer.parseInt(tv_volume.getText().toString())+1+"");
 			break;
-		case R.id.btn_unBind:
-			
-
-			break;
+	
 	
 		default:
 			break;

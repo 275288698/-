@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>小狗圆舞曲（乐曲）</name>
+		<onenumber>41</onenumber>
+		<twonumber>70</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="2">
+		<name>狗叫声</name>
+		<onenumber>41</onenumber>
+		<twonumber>71</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="3">
+		<name>哈巴狗（儿歌）</name>
+		<onenumber>41</onenumber>
+		<twonumber>72</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="4">
+		<name>猫叫声</name>
+		<onenumber>41</onenumber>
+		<twonumber>73</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="5">
+		<name>狮吼声</name>
+		<onenumber>41</onenumber>
+		<twonumber>74</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="6">
+		<name>母鸡叫声、公鸡叫声</name>
+		<onenumber>41</onenumber>
+		<twonumber>75</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="7">
+		<name>鸭叫声</name>
+		<onenumber>41</onenumber>
+		<twonumber>76</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="8">
+		<name>马蹄声、马叫声</name>
+		<onenumber>41</onenumber>
+		<twonumber>77</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="9">
+		<name>鸟叫声</name>
+		<onenumber>41</onenumber>
+		<twonumber>78</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="10">
+		<name>我是只小小鸟（儿歌）</name>
+		<onenumber>41</onenumber>
+		<twonumber>79</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="11">
+		<name>青蛙叫声</name>
+		<onenumber>42</onenumber>
+		<twonumber>24</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="12">
+		<name>风声、雷电声、雨声</name>
+		<onenumber>42</onenumber>
+		<twonumber>25</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="13">
+		<name>汽车喇叭声</name>
+		<onenumber>42</onenumber>
+		<twonumber>26</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="14">
+		<name>小司机（歌曲）</name>
+		<onenumber>42</onenumber>
+		<twonumber>27</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="15">
+		<name>消防车警报声</name>
+		<onenumber>42</onenumber>
+		<twonumber>28</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="16">
+		<name>火车行驶声</name>
+		<onenumber>42</onenumber>
+		<twonumber>29</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="17">
+		<name>轮船汽笛声</name>
+		<onenumber>42</onenumber>
+		<twonumber>30</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="18">
+		<name>飞机飞行声</name>
+		<onenumber>42</onenumber>
+		<twonumber>31</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="19">
+		<name>直升飞机飞行声</name>
+		<onenumber>42</onenumber>
+		<twonumber>32</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="20">
+		<name>电话铃声</name>
+		<onenumber>42</onenumber>
+		<twonumber>33</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="21">
+		<name>打电话（歌曲）</name>
+		<onenumber>42</onenumber>
+		<twonumber>34</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="22">
+		<name>击鼓声</name>
+		<onenumber>42</onenumber>
+		<twonumber>35</twonumber>
+		<mold>学说话</mold>
+	</person>
+	<person id="23">
+		<name>金蛇狂舞（乐曲）</name>
+		<onenumber>42</onenumber>
+		<twonumber>36</twonumber>
+		<mold>学说话</mold>
+	</person>
+</persons>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>《我能行》</name>
+		<onenumber>40</onenumber>
+		<twonumber>38</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="2">
+		<name>《竖起大拇哥》</name>
+		<onenumber>40</onenumber>
+		<twonumber>34</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="3">
+		<name>《我的优点在哪里》</name>
+		<onenumber>40</onenumber>
+		<twonumber>29</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="4">
+		<name>《做我的朋友吧》</name>
+		<onenumber>39</onenumber>
+		<twonumber>79</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="5">
+		<name>《打针不可怕》</name>
+		<onenumber>40</onenumber>
+		<twonumber>24</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="6">
+		<name>《只买一个》</name>
+		<onenumber>40</onenumber>
+		<twonumber>25</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="7">
+		<name>《母亲节》</name>
+		<onenumber>24</onenumber>
+		<twonumber>70</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="8">
+		<name>《为什么》</name>
+		<onenumber>40</onenumber>
+		<twonumber>33</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="9">
+		<name>《妈妈辛苦了》</name>
+		<onenumber>39</onenumber>
+		<twonumber>72</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="10">
+		<name>《不让妈妈抱》</name>
+		<onenumber>40</onenumber>
+		<twonumber>27</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="11">
+		<name>《下一次我能赢》</name>
+		<onenumber>39</onenumber>
+		<twonumber>73</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="12">
+		<name>《你是谁》</name>
+		<onenumber>24</onenumber>
+		<twonumber>61</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="13">
+		<name>《没什么大不了》</name>
+		<onenumber>39</onenumber>
+		<twonumber>74</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="14">
+		<name>《是我的错》</name>
+		<onenumber>40</onenumber>
+		<twonumber>36</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="15">
+		<name>《大大的拥抱》</name>
+		<onenumber>39</onenumber>
+		<twonumber>75</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="16">
+		<name>《帮帮忙》</name>
+		<onenumber>39</onenumber>
+		<twonumber>76</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="17">
+		<name>《我有办法》</name>
+		<onenumber>39</onenumber>
+		<twonumber>77</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="18">
+		<name>《马马虎虎》</name>
+		<onenumber>40</onenumber>
+		<twonumber>26</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="19">
+		<name>《摔跤》</name>
+		<onenumber>24</onenumber>
+		<twonumber>65</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="20">
+		<name>《我们一起玩》</name>
+		<onenumber>24</onenumber>
+		<twonumber>64</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="21">
+		<name>《耐心等候》</name>
+		<onenumber>39</onenumber>
+		<twonumber>78</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="22">
+		<name>《自己睡》</name>
+		<onenumber>40</onenumber>
+		<twonumber>28</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="23">
+		<name>《说谎不是好孩子》</name>
+		<onenumber>24</onenumber>
+		<twonumber>79</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="24">
+		<name>《没关系》</name>
+		<onenumber>40</onenumber>
+		<twonumber>37</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="25">
+		<name>《不高兴》</name>
+		<onenumber>25</onenumber>
+		<twonumber>31</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="26">
+		<name>《我不怕》</name>
+		<onenumber>40</onenumber>
+		<twonumber>30</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="27">
+		<name>《不乱发脾气》</name>
+		<onenumber>40</onenumber>
+		<twonumber>31</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="28">
+		<name>《你真棒》</name>
+		<onenumber>24</onenumber>
+		<twonumber>60</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="29">
+		<name>《等一会儿再吃》</name>
+		<onenumber>40</onenumber>
+		<twonumber>32</twonumber>
+		<mold>性格</mold>
+	</person>
+	<person id="30">
+		<name>《这是他的》</name>
+		<onenumber>40</onenumber>
+		<twonumber>35</twonumber>
+		<mold>性格</mold>
+	</person>
+</persons>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>为什么要经常修剪指甲</name>
+		<onenumber>28</onenumber>
+		<twonumber>24</twonumber>
+		<mold>十万个为什么</mold>
+	</person>
+	<person id="2">
+		<name>为什么不能挖鼻孔</name>
+		<onenumber>28</onenumber>
+		<twonumber>25</twonumber>
+		<mold>十万个为什么</mold>
+	</person>
+	<person id="3">
+		<name>为什么不能憋尿</name>
+		<onenumber>28</onenumber>
+		<twonumber>26</twonumber>
+		<mold>十万个为什么</mold>
+	</person>
+	<person id="4">
+		<name>为什么不能蒙头睡觉</name>
+		<onenumber>28</onenumber>
+		<twonumber>27</twonumber>
+		<mold>十万个为什么</mold>
+	</person>
+	<person id="5">
+		<name>为什么人需要睡觉</name>
+		<onenumber>28</onenumber>
+		<twonumber>28</twonumber>
+		<mold>十万个为什么</mold>
+	</person>
+	<person id="6">
+		<name>为什么人的血液是红色的</name>
+		<onenumber>28</onenumber>
+		<twonumber>29</twonumber>
+		<mold>十万个为什么</mold>
+	</person>
+	<person id="7">
+		<name>为什么跑步时心脏跳得快</name>
+		<onenumber>28</onenumber>
+		<twonumber>30</twonumber>
+		<mold>十万个为什么</mold>
+	</person>
+	<person id="8">
+		<name>为什么指甲剪掉后还会再长</name>
+		<onenumber>28</onenumber>
+		<twonumber>31</twonumber>
+		<mold>十万个为什么</mold>
+	</person>
+	<person id="9">
+		<name>为什么人会有脉搏</name>
+		<onenumber>28</onenumber>
+		<twonumber>32</twonumber>
+		<mold>十万个为什么</mold>
+	</person>
+	<person id="10">
+		<name>为什么人会老</name>
+		<onenumber>28</onenumber>
+		<twonumber>33</twonumber>
+		<mold>十万个为什么</mold>
+	</person>
+</persons>

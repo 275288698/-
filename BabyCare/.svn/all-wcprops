@@ -1,0 +1,45 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 31
+/svn/Project_BabyCare/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/Project_BabyCare/!svn/ver/4/BabyCare
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Project_BabyCare/!svn/ver/15/BabyCare/AndroidManifest.xml
+END
+ic_launcher-web.png
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/ic_launcher-web.png
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Project_BabyCare/!svn/ver/14/BabyCare/build.gradle
+END

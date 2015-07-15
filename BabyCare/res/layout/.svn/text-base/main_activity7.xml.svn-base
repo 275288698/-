@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.Translucent"
+    android:orientation="vertical"
+    android:background="@drawable/back1" 
+     > 
+	<Button
+         android:id="@+id/buttonchushi"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:background="@drawable/back1"/>  
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginBottom="52dp"
+	    android:orientation="horizontal" >
+	    
+	    
+	     <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="59"
+	            android:orientation="vertical"
+	            >
+	      		 <!-- android:background="@drawable/gushi1"--> 
+	      		 <Button
+	      		     android:id="@+id/buttongushi4"
+	      		     android:layout_weight="1"
+	      		     android:layout_width="match_parent"
+	      		     android:layout_height="match_parent"	      		   
+	      		     android:background="#ffff20" 
+	      		      android:text="儿歌"
+	                 />
+
+	      		 <Button
+	      		     android:id="@+id/buttonerge4"
+	      		     android:layout_weight="1"
+	      		     android:layout_width="match_parent"
+	      		     android:layout_height="match_parent"
+	      		     android:background="@drawable/erge11"/>
+
+	      		 <Button
+	      		     android:id="@+id/buttonyingyu4"
+	      		     android:layout_weight="1"
+	      		     android:layout_width="match_parent"
+	      		     android:layout_height="match_parent"
+	      		     android:background="@drawable/yingyu11" />
+
+	      		 <Button
+	      		     android:id="@+id/buttonxingge4"
+	      		     android:layout_width="match_parent"
+	      		     android:layout_height="match_parent"
+	      		     android:layout_weight="1"
+	      		     android:background="@drawable/xingge22" />
+
+	      		 <Button
+	      		     android:id="@+id/buttonjuese4"
+	      		     android:layout_weight="1"
+	      		     android:layout_width="match_parent"
+	      		     android:layout_height="match_parent"
+	      		     android:background="@drawable/juese22"/>
+	      		  <Button
+	      		     android:id="@+id/btn1"
+	      		     android:layout_weight="1"
+	      		     android:layout_width="match_parent"
+	      		     android:layout_height="match_parent"
+	      		     android:background="@drawable/shezhi22"/>
+	      		 <Button
+	      		     android:id="@+id/buttonshezhi4"
+	      		     android:layout_weight="1"
+	      		     android:layout_width="match_parent"
+	      		     android:layout_height="match_parent"
+	      		     android:background="@drawable/shezhi22"/>
+	      		 <Button
+	      		     android:id="@+id/buttonback4"
+	      		     android:layout_weight="0.86"
+	      		     android:layout_width="match_parent"
+	      		     android:layout_height="match_parent"
+	      		     android:background="@drawable/back11"/>	           
+	        
+			</LinearLayout>
+	      
+
+	           
+	           <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="21"
+	            android:orientation="vertical"
+	            >
+	            <ListView
+	                android:id="@+id/listView"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent" 
+	                android:cacheColorHint="#00000000"
+	                >
+	            </ListView>
+	            </LinearLayout>
+	            
+	        
+	        
+	      
+	   </LinearLayout>
+
+	   <LinearLayout
+	       android:layout_width="match_parent"
+	       android:layout_height="52dp"
+	       android:layout_alignParentBottom="true"
+	       android:layout_alignParentLeft="true"
+	       android:background="#ffffff"
+	       android:orientation="horizontal" >
+
+	       <Button
+	           android:id="@+id/button_rotary1"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:layout_weight="1"
+	           android:background="@drawable/rotary"
+	           android:padding="0dp" />
+
+	       <Button
+	           android:id="@+id/button_plus"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:layout_weight="1"
+	           android:background="@drawable/plus"
+	           android:padding="0dp" />
+
+	       <Button
+	           android:id="@+id/button_prev"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:layout_weight="1"
+	           android:background="@drawable/prev"
+	           android:padding="0dp" />
+
+	       <Button
+	           android:id="@+id/button_playpause"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:layout_weight="1"
+	           android:background="@drawable/playpause"
+	           android:padding="0dp" />
+
+	       <Button
+	           android:id="@+id/button_next"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:layout_weight="1"
+	           android:background="@drawable/next"
+	           android:padding="0dp" />
+	       <Button  
+	       	   android:id="@+id/button_minus"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:layout_weight="1"
+	           android:background="@drawable/minus"
+	           android:padding="0dp" />
+
+	       <Button
+	           android:id="@+id/button_loop"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:layout_weight="1"
+	           android:background="@drawable/loop"
+	           android:padding="0dp" />
+	   
+	   </LinearLayout>
+
+	   
+
+</RelativeLayout>

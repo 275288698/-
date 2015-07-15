@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>优彼一天</name>
+		<onenumber>43</onenumber>
+		<twonumber>48</twonumber>
+		<mold>优彼一天</mold>
+	</person>
+</persons>

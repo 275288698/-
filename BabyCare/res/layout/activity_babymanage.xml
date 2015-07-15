@@ -18,15 +18,16 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
-                 android:layout_marginTop="20dp"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/line_gary_long" />
 
             <LinearLayout
                 android:id="@+id/set_headPhoto"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="55dp"
                 android:background="@android:color/white"
-                android:orientation="horizontal" >
+                android:orientation="horizontal"
+                 >
 
                 <TextView
                     android:layout_width="0dp"
@@ -69,12 +70,14 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/line_gary_close" />
+
             <LinearLayout
                 android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:background="@android:color/white"
-                android:orientation="horizontal" >
+                android:orientation="horizontal"
+                >
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -88,21 +91,21 @@
                 <TextView
                     android:id="@+id/set_name"
                     android:layout_width="0dp"
-                     android:layout_height="match_parent"
-                       android:onClick="onBtnClick"
-                       android:clickable="true"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="13.5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                     android:text="Bobby"
+                    android:clickable="true"
                     android:gravity="right|center_vertical"
+                    android:onClick="onBtnClick"
                     android:singleLine="true"
+                    android:text="Bobby"
                     android:textColor="#999999"
                     android:textSize="15sp" />
 
                 <ImageView
-                       android:id="@+id/arrow2"
+                    android:id="@+id/arrow2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -110,17 +113,108 @@
                     android:contentDescription="@string/app_name"
                     android:src="@drawable/icon_gray_enter1" />
             </LinearLayout>
-       <View
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/line_gary_close" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+               >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13.5dp"
+                    android:gravity="center_vertical"
+                    android:text="电话号码"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text_bindNum"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="13234445565"
+                    android:textColor="#999999"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/arrow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/icon_gray_enter1" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/line_gary_close" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+               >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13.5dp"
+                    android:gravity="center_vertical"
+                    android:text="设备号"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text_bindNum"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="13ef34556efe323ef"
+                    android:textColor="#999999"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/arrow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/icon_gray_enter1" />
+            </LinearLayout>
+
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:background="@drawable/line_gary_long" />
-            
-       
-              <View
+
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/line_gary_long" />
+
             <LinearLayout
                 android:id="@+id/layout_sex"
                 android:layout_width="match_parent"
@@ -143,20 +237,20 @@
                     android:id="@+id/set_sex"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                       android:onClick="onBtnClick"
-                       android:clickable="true"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="13.5dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    android:text="男"
+                    android:clickable="true"
                     android:gravity="right|center_vertical"
+                    android:onClick="onBtnClick"
                     android:singleLine="true"
+                    android:text="男"
                     android:textColor="#999999"
                     android:textSize="15sp" />
 
                 <ImageView
-                       android:id="@+id/arrow3"
+                    android:id="@+id/arrow5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -164,12 +258,14 @@
                     android:contentDescription="@string/app_name"
                     android:src="@drawable/icon_gray_enter1" />
             </LinearLayout>
-     <View
+
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/line_gary_close" />
+
             <LinearLayout
                 android:id="@+id/set_birthday"
                 android:layout_width="match_parent"
@@ -190,18 +286,18 @@
                 <TextView
                     android:id="@+id/birthday"
                     android:layout_width="0dp"
-                     android:layout_height="match_parent"
-                       android:onClick="onBtnClick"
-                       android:clickable="true"
+                    android:layout_height="match_parent"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
+                    android:clickable="true"
                     android:gravity="center_vertical|right"
+                    android:onClick="onBtnClick"
                     android:text="2014-11-11"
                     android:textColor="#999999"
                     android:textSize="15sp" />
 
                 <ImageView
-                       android:id="@+id/arrow4"
+                    android:id="@+id/arrow6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -209,12 +305,14 @@
                     android:contentDescription="@string/app_name"
                     android:src="@drawable/icon_gray_enter1" />
             </LinearLayout>
-     <View
+
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/line_gary_close" />
+
             <LinearLayout
                 android:id="@+id/layout_weight"
                 android:layout_width="match_parent"
@@ -235,18 +333,18 @@
                 <TextView
                     android:id="@+id/text_weight"
                     android:layout_width="0dp"
-                     android:layout_height="match_parent"
-                       android:onClick="onBtnClick"
-                       android:clickable="true"
+                    android:layout_height="match_parent"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
+                    android:clickable="true"
                     android:gravity="center_vertical|right"
+                    android:onClick="onBtnClick"
                     android:text="30kg"
                     android:textColor="#999999"
                     android:textSize="15sp" />
 
                 <ImageView
-                       android:id="@+id/arrow5"
+                    android:id="@+id/arrow7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -254,12 +352,14 @@
                     android:contentDescription="@string/app_name"
                     android:src="@drawable/icon_gray_enter1" />
             </LinearLayout>
-     <View
+
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:background="@drawable/line_gary_close" />
+
             <LinearLayout
                 android:id="@+id/layout_height"
                 android:layout_width="match_parent"
@@ -280,18 +380,18 @@
                 <TextView
                     android:id="@+id/text_height"
                     android:layout_width="0dp"
-                 android:layout_height="match_parent"
-                       android:onClick="onBtnClick"
-                       android:clickable="true"
+                    android:layout_height="match_parent"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
+                    android:clickable="true"
                     android:gravity="center_vertical|right"
+                    android:onClick="onBtnClick"
                     android:text="100cm"
                     android:textColor="#999999"
                     android:textSize="15sp" />
 
                 <ImageView
-                       android:id="@+id/arrow6"
+                    android:id="@+id/arrow8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -299,26 +399,18 @@
                     android:contentDescription="@string/app_name"
                     android:src="@drawable/icon_gray_enter1" />
             </LinearLayout>
-     <View
+
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:background="@drawable/line_gary_long" />
-            
-                     <TextView
-                            android:id="@+id/arrow7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="13.5dp"
-                          android:layout_marginTop="15dp"
-                    android:text="以下固有设备不能修改..."
-                    android:textColor="#bfbfbf"
-                    android:textSize="12sp" />
-                     <View
+
+            <View
                 android:layout_width="match_parent"
-                 android:layout_marginTop="5dp"
                 android:layout_height="1px"
-          
+                android:layout_marginTop="15dp"
                 android:background="@drawable/line_gary_long" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -331,7 +423,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="13.5dp"
                     android:gravity="center_vertical"
-                    android:text="电话号码"
+                    android:text="中心号码"
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -345,23 +437,160 @@
                     android:text="13234445565"
                     android:textColor="#999999"
                     android:textSize="15sp" />
-
-                
             </LinearLayout>
-     <View
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/line_gary_close" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13.5dp"
+                    android:gravity="center_vertical"
+                    android:text="辅助中心号码"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text_bindNum"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="18062626262"
+                    android:textColor="#999999"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/line_gary_close" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13.5dp"
+                    android:gravity="center_vertical"
+                    android:text="SOS号码"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/text_bindNum"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:text="18062626262"
+                    android:textColor="#999999"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:background="@drawable/line_gary_long" />
-            <Button
-                android:id="@+id/btn_unBind"
+
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:background="@drawable/bg_red_big_btn"
-                android:onClick="onBtnClick"
-                android:text="解绑"
-                android:textColor="#ffffff"
-                android:textSize="15sp" />
+                android:layout_height="1px"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/line_gary_long" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13.5dp"
+                    android:gravity="center_vertical"
+                    android:text="低电短信报警"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.babycare.view.SettingSwitchButton
+                    android:id="@+id/warn_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical|right"
+                   />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/line_gary_close" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13.5dp"
+                    android:gravity="center_vertical"
+                    android:text="SOS短信报警"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.babycare.view.SettingSwitchButton
+                    android:id="@+id/warn_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical|right"
+                     />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@drawable/line_gary_long" />
         </LinearLayout>
     </ScrollView>
 

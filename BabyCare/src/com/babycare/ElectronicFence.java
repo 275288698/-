@@ -28,41 +28,37 @@ public class ElectronicFence extends CustomTitleActivity {
 	public MyLocationListenner myListener = new MyLocationListenner();
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		
-		SDKInitializer.initialize(getApplicationContext());  
-		
-		 setContentView(R.layout.electronic_fence);
+		setContentView(R.layout.electronic_fence);
 		super.onCreate(savedInstanceState);
-		
 	}
 	@Override
 	protected void initViews() {
 		// TODO Auto-generated method stub
 		setTitle("电子围墙");
 		setTitleBarRightBtnText(null);
-		 mMapView = (MapView) findViewById(R.id.bmapView);  
-		mMapView.showZoomControls(false);;// 取消放大缩小
-
-		mBaiduMap = mMapView.getMap();
-
-		mBaiduMap.setMaxAndMinZoomLevel(19, 7);
-
-	
-		mBaiduMap.setMapStatus(MapStatusUpdateFactory.zoomTo(16));
-
-		new MapStatus.Builder().zoom(14);
-
-		mBaiduMap.setMyLocationEnabled(true);
-		// 定位初始化
-		mLocClient = new LocationClient(this);
-		mLocClient.registerLocationListener(myListener);
-		LocationClientOption option = new LocationClientOption();
-		option.setOpenGps(true);// 打开gps
-		option.setCoorType("bd09ll"); // 设置坐标类型
-		option.setScanSpan(1000);
-
-		mLocClient.setLocOption(option);
-		mLocClient.start();
+//		 mMapView = (MapView) findViewById(R.id.bmapView);  
+//		mMapView.showZoomControls(false);;// 取消放大缩小
+//
+//		mBaiduMap = mMapView.getMap();
+//
+//		mBaiduMap.setMaxAndMinZoomLevel(19, 7);
+//
+//	
+//		mBaiduMap.setMapStatus(MapStatusUpdateFactory.zoomTo(16));
+//
+//		new MapStatus.Builder().zoom(14);
+//
+//		mBaiduMap.setMyLocationEnabled(true);
+//		// 定位初始化
+//		mLocClient = new LocationClient(this);
+//		mLocClient.registerLocationListener(myListener);
+//		LocationClientOption option = new LocationClientOption();
+//		option.setOpenGps(true);// 打开gps
+//		option.setCoorType("bd09ll"); // 设置坐标类型
+//		option.setScanSpan(1000);
+//
+//		mLocClient.setLocOption(option);
+//		mLocClient.start();
 	}
 
 	@Override
@@ -87,19 +83,19 @@ public class ElectronicFence extends CustomTitleActivity {
 	    protected void onDestroy() {  
 	        super.onDestroy();  
 	        //在activity执行onDestroy时执行mMapView.onDestroy()，实现地图生命周期管理  
-	        mMapView.onDestroy();  
+//	        mMapView.onDestroy();  
 	    }  
 	    @Override  
 	    protected void onResume() {  
 	        super.onResume();  
 	        //在activity执行onResume时执行mMapView. onResume ()，实现地图生命周期管理  
-	        mMapView.onResume();  
+//	        mMapView.onResume();  
 	        }  
 	    @Override  
 	    protected void onPause() {  
 	        super.onPause();  
 	        //在activity执行onPause时执行mMapView. onPause ()，实现地图生命周期管理  
-	        mMapView.onPause();  
+//	        mMapView.onPause();  
 	        }  
 	    /**
 		 * 定位SDK监听函数

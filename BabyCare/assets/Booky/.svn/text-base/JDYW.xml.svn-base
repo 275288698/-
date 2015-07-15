@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>白雪公主（英文）</name>
+		<onenumber>36</onenumber>
+		<twonumber>59</twonumber>
+		<mold>英文经典故事</mold>
+	</person>
+	<person id="2">
+		<name>丑小鸭（英文）</name>
+		<onenumber>36</onenumber>
+		<twonumber>60</twonumber>
+		<mold>英文经典故事</mold>
+	</person>
+	<person id="3">
+		<name>海的女儿（英文）</name>
+		<onenumber>36</onenumber>
+		<twonumber>61</twonumber>
+		<mold>英文经典故事</mold>
+	</person>
+	<person id="4">
+		<name>灰姑娘（英文）</name>
+		<onenumber>36</onenumber>
+		<twonumber>62</twonumber>
+		<mold>英文经典故事</mold>
+	</person>
+	<person id="5">
+		<name>绿野仙踪（英文）</name>
+		<onenumber>36</onenumber>
+		<twonumber>63</twonumber>
+		<mold>英文经典故事</mold>
+	</person>
+	<person id="6">
+		<name>拇指姑娘（英文）</name>
+		<onenumber>36</onenumber>
+		<twonumber>64</twonumber>
+		<mold>英文经典故事</mold>
+	</person>
+	<person id="7">
+		<name>木偶奇遇记（英文）</name>
+		<onenumber>36</onenumber>
+		<twonumber>65</twonumber>
+		<mold>英文经典故事</mold>
+	</person>
+	<person id="8">
+		<name>三只小猪（英文）</name>
+		<onenumber>36</onenumber>
+		<twonumber>66</twonumber>
+		<mold>英文经典故事</mold>
+	</person>
+	<person id="9">
+		<name>睡美人（英文）</name>
+		<onenumber>36</onenumber>
+		<twonumber>67</twonumber>
+		<mold>英文经典故事</mold>
+	</person>
+	<person id="10">
+		<name>小红帽（英文）</name>
+		<onenumber>36</onenumber>
+		<twonumber>68</twonumber>
+		<mold>英文经典故事</mold>
+	</person>
+</persons>

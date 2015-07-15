@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<person id="1">
+		<name>小红帽</name>
+		<onenumber>24</onenumber>
+		<twonumber>24</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="2">
+		<name>金斧子</name>
+		<onenumber>24</onenumber>
+		<twonumber>32</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="3">
+		<name>不肯长大的小泰莱莎</name>
+		<onenumber>24</onenumber>
+		<twonumber>25</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="4">
+		<name>萝卜回来了</name>
+		<onenumber>24</onenumber>
+		<twonumber>41</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="5">
+		<name>小拇指</name>
+		<onenumber>24</onenumber>
+		<twonumber>34</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="6">
+		<name>小鸟和树</name>
+		<onenumber>24</onenumber>
+		<twonumber>29</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="7">
+		<name>猪八戒吃西瓜</name>
+		<onenumber>24</onenumber>
+		<twonumber>35</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="8">
+		<name>老鼠偷油</name>
+		<onenumber>24</onenumber>
+		<twonumber>49</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="9">
+		<name>美丽的公鸡</name>
+		<onenumber>24</onenumber>
+		<twonumber>57</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="10">
+		<name>一只笨狼</name>
+		<onenumber>24</onenumber>
+		<twonumber>31</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="11">
+		<name>小猫钓鱼</name>
+		<onenumber>25</onenumber>
+		<twonumber>66</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="12">
+		<name>盲人摸象</name>
+		<onenumber>25</onenumber>
+		<twonumber>48</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="13">
+		<name>聚宝缸</name>
+		<onenumber>25</onenumber>
+		<twonumber>61</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="14">
+		<name>出卖香味的老板</name>
+		<onenumber>25</onenumber>
+		<twonumber>62</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="15">
+		<name>小蝌蚪找妈妈</name>
+		<onenumber>24</onenumber>
+		<twonumber>42</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="16">
+		<name>七色花</name>
+		<onenumber>25</onenumber>
+		<twonumber>35</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="17">
+		<name>狐狸和乌鸦</name>
+		<onenumber>25</onenumber>
+		<twonumber>60</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="18">
+		<name>灰姑娘</name>
+		<onenumber>24</onenumber>
+		<twonumber>53</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="19">
+		<name>乌鸦喝水</name>
+		<onenumber>25</onenumber>
+		<twonumber>49</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="20">
+		<name>小马过河</name>
+		<onenumber>24</onenumber>
+		<twonumber>52</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="21">
+		<name>老马和小马</name>
+		<onenumber>24</onenumber>
+		<twonumber>38</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="22">
+		<name>狼和小羊</name>
+		<onenumber>24</onenumber>
+		<twonumber>58</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="23">
+		<name>兔子的尾巴</name>
+		<onenumber>27</onenumber>
+		<twonumber>32</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="24">
+		<name>大冬瓜</name>
+		<onenumber>25</onenumber>
+		<twonumber>46</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="25">
+		<name>猴子分面包</name>
+		<onenumber>24</onenumber>
+		<twonumber>30</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="26">
+		<name>鹰和鸡</name>
+		<onenumber>25</onenumber>
+		<twonumber>42</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="27">
+		<name>疑人偷斧</name>
+		<onenumber>25</onenumber>
+		<twonumber>43</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="28">
+		<name>聪明的呆呆</name>
+		<onenumber>26</onenumber>
+		<twonumber>29</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="29">
+		<name>浓烟和烟囱</name>
+		<onenumber>26</onenumber>
+		<twonumber>30</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="30">
+		<name>木偶奇遇记</name>
+		<onenumber>24</onenumber>
+		<twonumber>54</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="31">
+		<name>驴和盐</name>
+		<onenumber>24</onenumber>
+		<twonumber>45</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="32">
+		<name>水牛和阳雀</name>
+		<onenumber>25</onenumber>
+		<twonumber>53</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="33">
+		<name>葫芦娃</name>
+		<onenumber>25</onenumber>
+		<twonumber>54</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="34">
+		<name>大萝卜</name>
+		<onenumber>24</onenumber>
+		<twonumber>44</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="35">
+		<name>点金术</name>
+		<onenumber>26</onenumber>
+		<twonumber>44</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="36">
+		<name>云雀</name>
+		<onenumber>25</onenumber>
+		<twonumber>63</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="37">
+		<name>蚊子和狮子</name>
+		<onenumber>25</onenumber>
+		<twonumber>64</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="38">
+		<name>长发妹</name>
+		<onenumber>25</onenumber>
+		<twonumber>65</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="39">
+		<name>三只小猪</name>
+		<onenumber>24</onenumber>
+		<twonumber>26</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="40">
+		<name>冰上的熊</name>
+		<onenumber>28</onenumber>
+		<twonumber>53</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="41">
+		<name>金天鹅</name>
+		<onenumber>24</onenumber>
+		<twonumber>40</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="42">
+		<name>井蛙和海鳖</name>
+		<onenumber>25</onenumber>
+		<twonumber>38</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="43">
+		<name>丑小鸭</name>
+		<onenumber>24</onenumber>
+		<twonumber>47</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="44">
+		<name>红蘑菇和白蘑菇</name>
+		<onenumber>24</onenumber>
+		<twonumber>55</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="45">
+		<name>青蛙王子</name>
+		<onenumber>24</onenumber>
+		<twonumber>33</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="46">
+		<name>金苹果</name>
+		<onenumber>25</onenumber>
+		<twonumber>70</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="47">
+		<name>雪孩子</name>
+		<onenumber>24</onenumber>
+		<twonumber>48</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="48">
+		<name>黄鹤的传说</name>
+		<onenumber>25</onenumber>
+		<twonumber>79</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="49">
+		<name>树叶和树根</name>
+		<onenumber>26</onenumber>
+		<twonumber>24</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="50">
+		<name>攀藤</name>
+		<onenumber>26</onenumber>
+		<twonumber>25</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="51">
+		<name>谁是森林之王</name>
+		<onenumber>26</onenumber>
+		<twonumber>26</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="52">
+		<name>狮子和山羊</name>
+		<onenumber>28</onenumber>
+		<twonumber>40</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="53">
+		<name>小兔胜狮王</name>
+		<onenumber>26</onenumber>
+		<twonumber>35</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="54">
+		<name>寒号鸟</name>
+		<onenumber>25</onenumber>
+		<twonumber>50</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="55">
+		<name>三个和尚</name>
+		<onenumber>25</onenumber>
+		<twonumber>39</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="56">
+		<name>马和驴子</name>
+		<onenumber>24</onenumber>
+		<twonumber>37</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="57">
+		<name>虎哥哥和猫弟弟</name>
+		<onenumber>24</onenumber>
+		<twonumber>51</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="58">
+		<name>狐狸和水罐</name>
+		<onenumber>25</onenumber>
+		<twonumber>56</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="59">
+		<name>少年国王</name>
+		<onenumber>25</onenumber>
+		<twonumber>57</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="60">
+		<name>大象的鼻子</name>
+		<onenumber>25</onenumber>
+		<twonumber>78</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="61">
+		<name>猴子捞月亮</name>
+		<onenumber>25</onenumber>
+		<twonumber>72</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="62">
+		<name>洗澡</name>
+		<onenumber>26</onenumber>
+		<twonumber>37</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="63">
+		<name>小猴吃瓜果</name>
+		<onenumber>25</onenumber>
+		<twonumber>41</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="64">
+		<name>豆苗的朋友</name>
+		<onenumber>26</onenumber>
+		<twonumber>39</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="65">
+		<name>小麻雀拔毛</name>
+		<onenumber>26</onenumber>
+		<twonumber>40</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="66">
+		<name>手捧空花盆的孩子</name>
+		<onenumber>24</onenumber>
+		<twonumber>43</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="67">
+		<name>森林火车</name>
+		<onenumber>27</onenumber>
+		<twonumber>43</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="68">
+		<name>穿错了衣服</name>
+		<onenumber>27</onenumber>
+		<twonumber>44</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="69">
+		<name>刺猬的故事</name>
+		<onenumber>27</onenumber>
+		<twonumber>61</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="70">
+		<name>大灰狼来了</name>
+		<onenumber>27</onenumber>
+		<twonumber>62</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="71">
+		<name>小黑人布布和大老虎</name>
+		<onenumber>27</onenumber>
+		<twonumber>63</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="72">
+		<name>香喷喷的大烙饼</name>
+		<onenumber>27</onenumber>
+		<twonumber>78</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="73">
+		<name>找找小蚂蚁</name>
+		<onenumber>27</onenumber>
+		<twonumber>79</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="74">
+		<name>鲁班学艺</name>
+		<onenumber>26</onenumber>
+		<twonumber>50</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="75">
+		<name>爱迪生孵小鸡</name>
+		<onenumber>27</onenumber>
+		<twonumber>70</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="76">
+		<name>聪明的小八哥</name>
+		<onenumber>27</onenumber>
+		<twonumber>71</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="77">
+		<name>小公鸡和小鸭子</name>
+		<onenumber>26</onenumber>
+		<twonumber>52</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="78">
+		<name>穿鞋的小花猫</name>
+		<onenumber>27</onenumber>
+		<twonumber>34</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="79">
+		<name>丢尾巴</name>
+		<onenumber>27</onenumber>
+		<twonumber>35</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="80">
+		<name>大家都睡着了</name>
+		<onenumber>27</onenumber>
+		<twonumber>36</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="81">
+		<name>鸭子孵娃娃</name>
+		<onenumber>27</onenumber>
+		<twonumber>37</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="82">
+		<name>画妈妈</name>
+		<onenumber>26</onenumber>
+		<twonumber>43</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="83">
+		<name>小吱吱和猫大夫</name>
+		<onenumber>27</onenumber>
+		<twonumber>27</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="84">
+		<name>狮子照哈哈镜</name>
+		<onenumber>27</onenumber>
+		<twonumber>28</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="85">
+		<name>冬天的动物</name>
+		<onenumber>27</onenumber>
+		<twonumber>57</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="86">
+		<name>小猪奴尼</name>
+		<onenumber>27</onenumber>
+		<twonumber>59</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="87">
+		<name>狐狸和鹳</name>
+		<onenumber>24</onenumber>
+		<twonumber>59</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="88">
+		<name>老鼠报恩</name>
+		<onenumber>26</onenumber>
+		<twonumber>54</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="89">
+		<name>机器人当医生</name>
+		<onenumber>26</onenumber>
+		<twonumber>55</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="90">
+		<name>伐树摘果</name>
+		<onenumber>26</onenumber>
+		<twonumber>75</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="91">
+		<name>换春装</name>
+		<onenumber>27</onenumber>
+		<twonumber>77</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="92">
+		<name>木马摇了</name>
+		<onenumber>27</onenumber>
+		<twonumber>30</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="93">
+		<name>下雨了</name>
+		<onenumber>27</onenumber>
+		<twonumber>31</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="94">
+		<name>猴子理发师</name>
+		<onenumber>27</onenumber>
+		<twonumber>60</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="95">
+		<name>小猫咪咪过生日</name>
+		<onenumber>27</onenumber>
+		<twonumber>41</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="96">
+		<name>捉迷藏</name>
+		<onenumber>27</onenumber>
+		<twonumber>42</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="97">
+		<name>海外奇国游</name>
+		<onenumber>25</onenumber>
+		<twonumber>74</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="98">
+		<name>鹿和狮子</name>
+		<onenumber>25</onenumber>
+		<twonumber>75</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="99">
+		<name>坐井观天</name>
+		<onenumber>25</onenumber>
+		<twonumber>51</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="100">
+		<name>神奇的布袋</name>
+		<onenumber>25</onenumber>
+		<twonumber>52</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="101">
+		<name>飞上树的乌龟</name>
+		<onenumber>25</onenumber>
+		<twonumber>40</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="102">
+		<name>宝石孔</name>
+		<onenumber>25</onenumber>
+		<twonumber>68</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="103">
+		<name>骆驼和羊</name>
+		<onenumber>26</onenumber>
+		<twonumber>28</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="104">
+		<name>落叶</name>
+		<onenumber>26</onenumber>
+		<twonumber>38</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="105">
+		<name>智慧帽</name>
+		<onenumber>25</onenumber>
+		<twonumber>58</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="106">
+		<name>渔童</name>
+		<onenumber>25</onenumber>
+		<twonumber>59</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="107">
+		<name>小蜗牛</name>
+		<onenumber>26</onenumber>
+		<twonumber>56</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="108">
+		<name>聪明的阿凡提</name>
+		<onenumber>25</onenumber>
+		<twonumber>55</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="109">
+		<name>小羊过桥</name>
+		<onenumber>26</onenumber>
+		<twonumber>53</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="110">
+		<name>想飞的小象</name>
+		<onenumber>26</onenumber>
+		<twonumber>41</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="111">
+		<name>小兔子找太阳</name>
+		<onenumber>26</onenumber>
+		<twonumber>42</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="112">
+		<name>一颗核桃儿</name>
+		<onenumber>27</onenumber>
+		<twonumber>39</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="113">
+		<name>喜鹊妈妈</name>
+		<onenumber>27</onenumber>
+		<twonumber>29</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="114">
+		<name>帮助小鸭子</name>
+		<onenumber>27</onenumber>
+		<twonumber>33</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="115">
+		<name>皇帝的新衣</name>
+		<onenumber>24</onenumber>
+		<twonumber>27</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="116">
+		<name>神笔马良</name>
+		<onenumber>24</onenumber>
+		<twonumber>46</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="117">
+		<name>龟兔赛跑</name>
+		<onenumber>25</onenumber>
+		<twonumber>44</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="118">
+		<name>白头翁</name>
+		<onenumber>25</onenumber>
+		<twonumber>47</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="119">
+		<name>独眼和双眼</name>
+		<onenumber>25</onenumber>
+		<twonumber>76</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="120">
+		<name>鸭子和兔子</name>
+		<onenumber>24</onenumber>
+		<twonumber>36</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="121">
+		<name>笨耗子的故事</name>
+		<onenumber>24</onenumber>
+		<twonumber>39</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="122">
+		<name>狐狸和虾</name>
+		<onenumber>25</onenumber>
+		<twonumber>33</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="123">
+		<name>小老鼠偷米</name>
+		<onenumber>27</onenumber>
+		<twonumber>38</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="124">
+		<name>狐狸和葡萄</name>
+		<onenumber>24</onenumber>
+		<twonumber>50</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="125">
+		<name>下金蛋的鹅</name>
+		<onenumber>24</onenumber>
+		<twonumber>56</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="126">
+		<name>魔棍破案</name>
+		<onenumber>25</onenumber>
+		<twonumber>45</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="127">
+		<name>咕咚</name>
+		<onenumber>26</onenumber>
+		<twonumber>76</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="128">
+		<name>孔融分梨</name>
+		<onenumber>26</onenumber>
+		<twonumber>57</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="129">
+		<name>别出心裁的赛马</name>
+		<onenumber>25</onenumber>
+		<twonumber>77</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="130">
+		<name>解铃还需系铃人</name>
+		<onenumber>39</onenumber>
+		<twonumber>61</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="131">
+		<name>状元回乡</name>
+		<onenumber>28</onenumber>
+		<twonumber>56</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="132">
+		<name>我知道</name>
+		<onenumber>28</onenumber>
+		<twonumber>58</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="133">
+		<name>小熊请客</name>
+		<onenumber>28</onenumber>
+		<twonumber>57</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="134">
+		<name>明山宾卖牛</name>
+		<onenumber>28</onenumber>
+		<twonumber>59</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="135">
+		<name>孟母教子</name>
+		<onenumber>28</onenumber>
+		<twonumber>54</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="136">
+		<name>铁匠识骗</name>
+		<onenumber>26</onenumber>
+		<twonumber>51</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="137">
+		<name>因小失大</name>
+		<onenumber>26</onenumber>
+		<twonumber>34</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="138">
+		<name>轮子</name>
+		<onenumber>26</onenumber>
+		<twonumber>36</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="139">
+		<name>好听的歌</name>
+		<onenumber>28</onenumber>
+		<twonumber>52</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="140">
+		<name>路上有个小土坑</name>
+		<onenumber>25</onenumber>
+		<twonumber>73</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="141">
+		<name>梦是什么</name>
+		<onenumber>28</onenumber>
+		<twonumber>51</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="142">
+		<name>小鸡出世</name>
+		<onenumber>25</onenumber>
+		<twonumber>71</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="143">
+		<name>最好的生日礼物</name>
+		<onenumber>28</onenumber>
+		<twonumber>41</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="144">
+		<name>爸爸丢了</name>
+		<onenumber>28</onenumber>
+		<twonumber>42</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="145">
+		<name>第一次旅行</name>
+		<onenumber>26</onenumber>
+		<twonumber>27</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="146">
+		<name>美丽的秋天</name>
+		<onenumber>28</onenumber>
+		<twonumber>45</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="147">
+		<name>三个小伙伴</name>
+		<onenumber>28</onenumber>
+		<twonumber>46</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="148">
+		<name>对不起</name>
+		<onenumber>28</onenumber>
+		<twonumber>49</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="149">
+		<name>太阳和小鱼</name>
+		<onenumber>26</onenumber>
+		<twonumber>32</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="150">
+		<name>蜗牛城的故事</name>
+		<onenumber>26</onenumber>
+		<twonumber>33</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="151">
+		<name>小黄莺唱歌</name>
+		<onenumber>27</onenumber>
+		<twonumber>48</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="152">
+		<name>金鸡冠的公鸡</name>
+		<onenumber>28</onenumber>
+		<twonumber>44</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="153">
+		<name>井底之蛙</name>
+		<onenumber>26</onenumber>
+		<twonumber>58</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="154">
+		<name>守株待兔</name>
+		<onenumber>26</onenumber>
+		<twonumber>59</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="155">
+		<name>滥竽充数</name>
+		<onenumber>26</onenumber>
+		<twonumber>60</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="156">
+		<name>买椟还珠</name>
+		<onenumber>26</onenumber>
+		<twonumber>61</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="157">
+		<name>自相矛盾</name>
+		<onenumber>26</onenumber>
+		<twonumber>62</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="158">
+		<name>一毛不拔</name>
+		<onenumber>26</onenumber>
+		<twonumber>69</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="159">
+		<name>抱薪救火</name>
+		<onenumber>26</onenumber>
+		<twonumber>63</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="160">
+		<name>揠苗助长</name>
+		<onenumber>26</onenumber>
+		<twonumber>64</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="161">
+		<name>刻舟求剑</name>
+		<onenumber>26</onenumber>
+		<twonumber>72</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="162">
+		<name>画蛇添足</name>
+		<onenumber>26</onenumber>
+		<twonumber>73</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="163">
+		<name>亡羊补牢</name>
+		<onenumber>26</onenumber>
+		<twonumber>74</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="164">
+		<name>狐假虎威</name>
+		<onenumber>28</onenumber>
+		<twonumber>24</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="165">
+		<name>惊弓之鸟</name>
+		<onenumber>26</onenumber>
+		<twonumber>77</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="166">
+		<name>东施效颦</name>
+		<onenumber>26</onenumber>
+		<twonumber>78</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="167">
+		<name>鹬蚌相争</name>
+		<onenumber>26</onenumber>
+		<twonumber>65</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="168">
+		<name>老马识途</name>
+		<onenumber>26</onenumber>
+		<twonumber>66</twonumber>
+		<mold>故事</mold>
+	</person>  
+	<person id="169">
+		<name>南辕北辙</name>
+		<onenumber>26</onenumber>
+		<twonumber>67</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="170">
+		<name>三人三人成虎</name>
+		<onenumber>26</onenumber>
+		<twonumber>68</twonumber>
+		<mold>故事</mold>
+	</person>
+	  
+	<person id="171">
+		<name>愚公移山</name>
+		<onenumber>26</onenumber>
+		<twonumber>70</twonumber>
+		<mold>故事</mold>
+	</person>
+	<person id="172">
+		<name>掩耳盗铃</name>
+		<onenumber>26</onenumber>
+		<twonumber>71</twonumber>
+		<mold>故事</mold>
+	</person>
+</persons>

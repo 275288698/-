@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect
+END
+BinaryHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect/BinaryHttpResponseHandler.java
+END
+ObjectHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect/ObjectHttpResponseHandler.java
+END
+RetryHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect/RetryHandler.java
+END
+HttpUrls.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect/HttpUrls.java
+END
+AsyncHttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect/AsyncHttpRequest.java
+END
+JsonHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect/JsonHttpResponseHandler.java
+END
+SimpleMultipartEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect/SimpleMultipartEntity.java
+END
+AsyncHttpResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect/AsyncHttpResponseHandler.java
+END
+AsyncHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect/AsyncHttpClient.java
+END
+HttpRestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect/HttpRestClient.java
+END
+RequestParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Project_BabyCare/!svn/ver/4/BabyCare/src/com/babycare/httpconnect/RequestParams.java
+END

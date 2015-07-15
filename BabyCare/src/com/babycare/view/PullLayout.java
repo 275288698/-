@@ -51,12 +51,12 @@ public class PullLayout extends ScrollView {
     protected void onFinishInflate() {
         super.onFinishInflate();
         setVerticalScrollBarEnabled(false);
-        rl_top = findViewById(R.id.rl_top);
-        ll_content = findViewById(R.id.ll_content);
-//        tv = (TextView) findViewById(R.id.tv);
-        ev = (EyeView) findViewById(R.id.eyeView);
-        ll_weather = findViewById(R.id.ll_weather);
+//        rl_top = findViewById(R.id.rl_top);
+//        ll_content = findViewById(R.id.ll_content);
+//        ev = (EyeView) findViewById(R.id.eyeView);
+//        ll_weather = findViewById(R.id.ll_weather);
       
+//        tv = (TextView) findViewById(R.id.tv);
 
         rl_top.getViewTreeObserver().addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
             @SuppressWarnings("deprecation")
